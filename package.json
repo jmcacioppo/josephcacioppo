@@ -1,0 +1,10 @@
+{
+  "name": "josephcacioppo",
+  "version": "1.0.0",
+  "description": "This is the website for Joseph Cacioppo.",
+  "main": "index.js",
+  "author": "Joseph Cacioppo",
+  "dependencies": {
+    "express": "4.13.0"
+  }
+}
