@@ -2,6 +2,6 @@
 
 josephcacioppo.controller('AboutMeController',
     function($scope) {
-        $scope.name = 'Joseph Cacioppo - About Me';
+        $scope.title = 'About Me';
     }
 );
