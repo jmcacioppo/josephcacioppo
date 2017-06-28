@@ -26,8 +26,12 @@ body, html {
     background-size: cover;
 }
 
+.navbar-custom {
+    background-color: #C23249;
+}
+
 #logo {
-    margin-top: -150px;
+    /*margin-top: -150px;*/
     margin-left: 15px;
     width: 120px;
     height: 85px;
