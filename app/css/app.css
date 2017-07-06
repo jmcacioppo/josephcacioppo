@@ -7,6 +7,15 @@ body, html {
     padding: 0;
 }
 
+#app {
+    min-height: 100%;
+    position: relative;
+}
+
+#content {
+    padding-bottom: 300px;
+}
+
 #footer {
     background: #C23249;
     width: 100%;
@@ -31,7 +40,7 @@ body, html {
 }
 
 #logo {
-    /*margin-top: -150px;*/
+    margin-top: -150px;
     margin-left: 15px;
     width: 120px;
     height: 85px;
@@ -53,4 +62,9 @@ span {
 
 #homesubtitle {
     font-size: 30px;
+    margin-bottom: 21%;
+}
+
+#home, #aboutme, #projects, #resume {
+    text-align: center;
 }
