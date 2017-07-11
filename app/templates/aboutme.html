@@ -1,7 +1,15 @@
 <div id="aboutme">
-    <h2>{{title}}</h2>
-    <p>Here's a little bit about me: </p>
+    <h2>About Me</h2>
+    <p>My name is Joseph Cacioppo and I am an aspiring software developer pursuing a Computer Science degree at the University of Florida (Go Gators!). 
+        I'm looking for any opportunity to create some cool and fun projects. 
+        I have worked on quite a few projects in my time in this field, and I couldn't be more excited to work on more. 
+        To see what I've done, feel free to look through the rest of the website. </p>
 
     <h2>Skills:</h2>
     <p>Here are some of my skills: </p>
+    <div ng-repeat="skill in skills">
+        <b>Skill: </b> {{skill.title}} <br>
+        <b>Proficiency: </b> {{skill.proficiency}} <br>
+        <hr>
+    </div>
 </div>

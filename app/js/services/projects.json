@@ -1,0 +1,17 @@
+[{
+    "title" : "Economic Data Engine",
+    "description" : "Analyze census data to predict economic success in Florida communities",
+    "tools" : "HTML, CSS, Javascript (jQuery), SQL, PHP",
+    "challenges" : "I was very challenged",
+    "image" : "../img/projects/EDE.png",
+    "link" : "https://github.com/jmcacioppo/EconomicDataEngine.github.io"
+},
+{
+    "title" : "Ask Madden Stuff",
+    "description" : "Ask legenday football coach John Madden any question and expect a response in the form of a football play ",
+    "tools" : "HTML, CSS, Javascript (jQuery)",
+    "challenges" : "I was very challenged",
+    "image" : "../img/projects/askmaddenstuff.png",
+    "link" : "https://github.com/jmcacioppo/swamphacks17_askmaddenstuff"
+}
+]
