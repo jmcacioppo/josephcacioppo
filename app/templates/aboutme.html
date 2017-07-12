@@ -7,7 +7,6 @@
     <p>Below are some of my technical skills, and then a section on my life and who I am.</p>
 
     <h2>Technical Skills</h2>
-
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -34,6 +33,7 @@
                 <button ng-click="getLifeExp(life)" class="btn btn-info" collapse data-target="#lives">{{life.title}}</button>
                 <div id="lives" collapse="life.isCollapsed">
                     <div ng-show="life.isCollapsed">{{mylife[experience].description}}</div>
+                    <img style="width: 50%; height: 50%;" src="{{mylife[experience].image}}" ng-show="life.isCollapsed"></img>
                 </div>
                 <br> <br> 
             </div>

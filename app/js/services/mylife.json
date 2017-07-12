@@ -1,18 +1,18 @@
 [{
     "id" : 0,
     "title" : "High School",
-    "description" : "Christopher Columbus",
-    "image" : "none"
+    "description" : "I attended Christopher Columbus High School in Miami, FL",
+    "image" : "../img/mylife/ccnn.png"
 },
 {
     "id" : 1,
     "title" : "College",
-    "description" : "University of Florida",
-    "image" : "none"
+    "description" : "I attended the University of Florida in Gainesville, FL",
+    "image" : "../img/mylife/football.jpg"
 },
 {
     "id" : 2,
-    "title" : "Internship",
-    "description" : "PIETech",
-    "image" : "none"
+    "title" : "Hobbies",
+    "description" : "I like to run",
+    "image" : "../img/mylife/half-marathon.jpg"
 }]
