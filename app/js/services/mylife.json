@@ -1,0 +1,18 @@
+[{
+    "id" : 0,
+    "title" : "High School",
+    "description" : "Christopher Columbus",
+    "image" : "none"
+},
+{
+    "id" : 1,
+    "title" : "College",
+    "description" : "University of Florida",
+    "image" : "none"
+},
+{
+    "id" : 2,
+    "title" : "Internship",
+    "description" : "PIETech",
+    "image" : "none"
+}]

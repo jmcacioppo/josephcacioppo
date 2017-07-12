@@ -1,21 +1,36 @@
 [{
-    "title" : "HTML", 
-    "proficiency" : "Intermediate"
-},
-{
-    "title" : "CSS", 
-    "proficiency" : "Intermediate"
-},
-{
+    "id" : "0",
     "title" : "Javascript", 
-    "proficiency" : "Intermediate"
+    "frameworks" : "Angular, Aurelia, Express, Node"
 },
 {
-    "title" : "C/C++", 
-    "proficiency" : "Intermediate"
+    "id" : "1",
+    "title" : "HTML & CSS", 
+    "frameworks" : "Bootstrap"
 },
 {
+    "id" : "2",
+    "title" : "C & C++", 
+    "frameworks" : "None"
+},
+{
+    "id" : "3",
     "title" : "Python", 
-    "proficiency" : "Intermediate"
+    "frameworks" : "None"
+},
+{
+    "id" : "4",
+    "title" : "Testing", 
+    "frameworks" : "Jasmine (using Karma as test runner)"
+},
+{
+    "id" : "5",
+    "title" : "SQL", 
+    "frameworks" : "None"
+},
+{
+    "id" : "6",
+    "title" : "PHP", 
+    "frameworks" : "None"
 }
 ]

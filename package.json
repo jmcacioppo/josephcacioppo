@@ -5,6 +5,8 @@
   "main": "index.js",
   "author": "Joseph Cacioppo",
   "dependencies": {
-    "express": "4.13.0"
+    "bootstrap": "^3.3.7",
+    "express": "4.13.0",
+    "jquery": "^3.2.1"
   }
 }
