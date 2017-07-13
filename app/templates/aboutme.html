@@ -28,15 +28,21 @@
 
     <h2>My Life</h2>
     <div class="container">
-        <div class="row">
-            <div ng-repeat="life in mylife" class="col-md-8 col-md-offset-2">
-                <button ng-click="getLifeExp(life)" class="btn btn-info" collapse data-target="#lives">{{life.title}}</button>
-                <div id="lives" collapse="life.isCollapsed">
-                    <div ng-show="life.isCollapsed">{{mylife[experience].description}}</div>
-                    <img style="width: 50%; height: 50%;" src="{{mylife[experience].image}}" ng-show="life.isCollapsed"></img>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div ng-repeat="life in mylife" class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" ng-href="#{{life.id}}" target="_self">{{life.title}}</a>
+                        </h4>
+                    </div>
+                    <div id="{{life.id}}" class="panel-collapse collapse">
+                        <div class="panel-body">{{life.description}}</div>
+                        <img id="lifeExp" src="{{life.image}}" alt="{{life.title}}">
+                    </div>
                 </div>
-                <br> <br> 
             </div>
         </div>
     </div>
+
 </div>
