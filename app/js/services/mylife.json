@@ -1,18 +1,44 @@
-[{
-    "id" : 0,
-    "title" : "High School",
-    "description" : "I attended Christopher Columbus High School in Miami, FL",
-    "image" : "../img/mylife/ccnn.png"
-},
-{
-    "id" : 1,
-    "title" : "College",
-    "description" : "I attend the University of Florida in Gainesville, FL",
-    "image" : "../img/mylife/football.jpg"
-},
-{
-    "id" : 2,
-    "title" : "Hobbies",
-    "description" : "I like to run",
-    "image" : "../img/mylife/half-marathon.jpg"
-}]
+[
+    {
+        "id" : 0,
+        "title" : "Christopher Columbus High School",
+        "description" : "I attended Christopher Columbus High School in Miami, FL. It's an all boys Catholic high school which helped shape who I am today. On the left is a picture of me with other members of the Christopher Columbus New Network (CCNN), the broadcast news team I was involved with. The picture on the right is of me with a friend and teacher.",
+        "image1" : "../img/mylife/columbus/ccnn.png",
+        "image2" : "../img/mylife/columbus/columbus.jpg"
+    },
+    {
+        "id" : 1,
+        "title" : "University of Florida",
+        "description" : "I attend the University of Florida in Gainesville, FL. It was an incredible experience to leave home and learn to live on my own. The picture on the left is of me and some friends at a football game. I am a huge Gator football fan, so I love going to every single game. The second picture is of me with officers of Newman club, an organization I was president of in college, which helped taught me so much about leadership.",
+        "image1" : "../img/mylife/uf/football.jpg",
+        "image2" : "../img/mylife/uf/newman.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "Pure Technologies Internship",
+        "description" : "I was an intern for Pure Technologies, a building inspection services company in Miami, FL. This was my first real job, and I had the great opportunity of spending two summers with this company. They taught me a great deal of skills. The left-side picture is of their logo, and the next picture is what my clothes looked like after a pipeline inspection I assisted with.",
+        "image1" : "../img/mylife/pureTech/pureTech.png",
+        "image2" : "../img/mylife/pureTech/dirtyFromPipe.jpg"
+    },
+    {
+        "id" : 3,
+        "title" : "PIETech Internship",
+        "description" : "I was an intern for PIETech, a financial planning software company in Powhatan, VA. My opportunity here was my first software development position, and the knowledge I gained was instrumental toward my growth. The first picture is of the entrance to the building I worked in, which showcases how creative the company was. The second picture is of a segway tour I got to go on with the other interns as part of a social event.",
+        "image1" : "../img/mylife/PIETech/entrance.jpg",
+        "image2" : "../img/mylife/PIETech/segway.png"
+    },
+    {
+        "id" : 4,
+        "title" : "Running",
+        "description" : "I wouldn't have thought so a few years ago, but I really like to run. In April 2017, I ran my first half-marathon, which was one of the most difficult challenges of my life. The picture on the left shows me crossing the finish line at the end of that, and the picture on the right was me after a donut dash, which was a 5k run where participants eat 6 donuts in the middle of the race.",
+        "image1" : "../img/mylife/running/half-marathon.jpg",
+        "image2" : "../img/mylife/running/donutdash.jpg"
+    },
+    {
+        "id" : 5,
+        "title" : "Hobbies",
+        "description" : "I have a lot of hobbies, which include hanging out with my friends, playing/watching sports, and experiencing new things. The two pictures below are of me exploring Washington DC for the first time, and of me riding a zipline for the first time, both of which were so much fun.",
+        "image1" : "../img/mylife/hobbies/dc.jpg",
+        "image2" : "../img/mylife/hobbies/zipline.jpg"
+    }
+]
