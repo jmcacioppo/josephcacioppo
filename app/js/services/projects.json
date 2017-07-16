@@ -1,5 +1,12 @@
 [
     {
+        "title" : "Social Security Calculator",
+        "description" : "Calculate social security estimate based on user personal information, expenses, and benefits",
+        "tools" : "HTML, CSS, Javascript (Aurelia)",
+        "image" : "../img/projects/socialSecurityCalculator.png",
+        "link" : "https://github.com/jmcacioppo/SocialSecurityCalculator"
+    },
+    {
         "title" : "Economic Data Engine",
         "description" : "Analyze census data to predict economic success in Florida communities",
         "tools" : "HTML, CSS, Javascript (jQuery), SQL, PHP",
