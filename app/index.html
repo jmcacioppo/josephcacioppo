@@ -9,14 +9,7 @@
     <body>
          <div id="app">
             <div id="content">
-                <div class="bg">
-                    <img id="logo" src="/img/logo/SiteLogo.png" alt="Home Logo">
-                    <span></span>
-                    <h1 id="hometitle"><b>Joseph Cacioppo</b></h1>
-                    <h2 id="homesubtitle"><b>Software Developer</b></h2>
-                </div>
-                <nav-bar></nav-bar>
-
+                <header></header>
                 <ng-view></ng-view>
             </div>
 
@@ -40,7 +33,9 @@
         <script src="/js/controllers/ProjectsController.js"></script>
         <script src="/js/controllers/ResumeController.js"></script>
 
-        <script src="/js/directives/navBar.js"></script>
+        <script src="/js/directives/header.js"></script>
+        <script src="/js/directives/technicalSkills.js"></script>
+        <script src="/js/directives/myLife.js"></script>
         <script src="/js/directives/projectList.js"></script>
         <script src="/js/directives/resumeContents.js"></script>
 
