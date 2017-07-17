@@ -1,0 +1,16 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#!/">Joseph Cacioppo</a>
+        </div>
+
+        <div class="navbar-collapse" ng-controller="NavController">
+            <ul class="nav navbar-nav">
+                <li ng-class="{ active: isActive('#!/')}"><a href="#!/">Home</a></li>
+                <li ng-class="{ active: isActive('#!/aboutme')}"><a href="#!/aboutme">About Me</a></li>
+                <li ng-class="{ active: isActive('#!/projects')}"><a href="#!/projects">Projects</a></li>
+                <li ng-class="{ active: isActive('#!/resume')}"><a href="#!/resume">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
