@@ -1,10 +1,24 @@
 [
     {
+        "title" : "Life Expectancy Calculator",
+        "description" : "Calculate life expectancy estimate based on user personal information, health, and occupation",
+        "tools" : "HTML, CSS, Javascript (Aurelia)",
+        "image" : "../img/projects/lifeExpectancyCalculator.png",
+        "link" : "https://github.com/jmcacioppo/LifeExpectancyCalculator"
+    },
+    {
         "title" : "Social Security Calculator",
         "description" : "Calculate social security estimate based on user personal information, expenses, and benefits",
         "tools" : "HTML, CSS, Javascript (Aurelia)",
         "image" : "../img/projects/socialSecurityCalculator.png",
         "link" : "https://github.com/jmcacioppo/SocialSecurityCalculator"
+    },
+    {
+        "title" : "josephcacioppo.com",
+        "description" : "Showcase my experience in software development",
+        "tools" : "HTML, CSS, Javascript (Angular)",
+        "image" : "../img/projects/josephcacioppo.png",
+        "link" : "https://github.com/jmcacioppo/josephcacioppo"
     },
     {
         "title" : "Economic Data Engine",
