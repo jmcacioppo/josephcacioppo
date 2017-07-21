@@ -89,3 +89,7 @@ span {
 #projectImage:hover { 
   opacity: 0.7; 
 }
+
+.btn {
+    background-color: #222E7A;
+}

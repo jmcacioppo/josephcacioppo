@@ -16,7 +16,7 @@
     {
         "id" : 2,
         "title" : "University of Florida",
-        "description" : "I attend the University of Florida in Gainesville, FL. It was an incredible experience to leave home and learn to live on my own. The first picture is of me and some friends at a football game. I am a huge Gator football fan, so I love going to every single game. The second picture is of me with officers of Newman club, an organization I was president of in college, which helped taught me so much about leadership.",
+        "description" : "I attend the University of Florida in Gainesville, FL. It was an incredible experience to leave home and learn to live on my own. The first picture is of some friends and me at a football game. I am a huge Gator football fan, so I love going to every single game. The second picture is of me with officers of Newman club, an organization I was president of in college, which helped taught me so much about leadership.",
         "image1" : "../img/mylife/uf/football.jpg",
         "image2" : "../img/mylife/uf/newman.jpg"
     },
@@ -30,7 +30,7 @@
     {
         "id" : 4,
         "title" : "Running",
-        "description" : "I wouldn't have thought so a few years ago, but I really like to run. In April 2017, I ran my first half-marathon, which was one of the most difficult challenges of my life. My first picture shows me crossing the finish line at the end of that, and the next picture was me after the UF donut dash, which was a 5k run where participants eat 6 donuts in the middle of the race.",
+        "description" : "I wouldn't have thought so a few years ago, but I really like to run. In April 2017, I ran my first half-marathon, which was one of the most difficult challenges of my life. My first picture shows me crossing the finish line at the end of that race. The next picture was me after the UF Donut Dash, which was a 5k run where participants eat 6 donuts in the middle of the race.",
         "image1" : "../img/mylife/running/half-marathon.jpg",
         "image2" : "../img/mylife/running/donutdash.jpg"
     },
