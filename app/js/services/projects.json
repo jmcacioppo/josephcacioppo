@@ -1,5 +1,19 @@
 [
     {
+        "title" : "MoneyManage.io",
+        "description" : "Personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
+        "tools" : "HTML, CSS, Javascript (Aurelia)",
+        "image" : "../img/projects/MoneyManage.png",
+        "link" : "https://github.com/jmcacioppo/MoneyManage.io"
+    },
+    {
+        "title" : "josephcacioppo.com",
+        "description" : "Showcase my experience in software development",
+        "tools" : "HTML, CSS, Javascript (Angular)",
+        "image" : "../img/projects/josephcacioppo.png",
+        "link" : "https://github.com/jmcacioppo/josephcacioppo"
+    },
+    {
         "title" : "Life Expectancy Calculator",
         "description" : "Calculate life expectancy estimate based on user personal information, health, and occupation",
         "tools" : "HTML, CSS, Javascript (Aurelia)",
@@ -14,25 +28,18 @@
         "link" : "https://github.com/jmcacioppo/SocialSecurityCalculator"
     },
     {
-        "title" : "josephcacioppo.com",
-        "description" : "Showcase my experience in software development",
-        "tools" : "HTML, CSS, Javascript (Angular)",
-        "image" : "../img/projects/josephcacioppo.png",
-        "link" : "https://github.com/jmcacioppo/josephcacioppo"
-    },
-    {
         "title" : "Economic Data Engine",
         "description" : "Analyze census data to predict economic success in Florida communities",
         "tools" : "HTML, CSS, Javascript (jQuery), SQL, PHP",
         "image" : "../img/projects/EDE.png",
-        "link" : "https://github.com/jmcacioppo/EconomicDataEngine.github.io"
+        "link" : "https://github.com/jmcacioppo/EconomicDataEngine"
     },
     {
         "title" : "Ask Madden Stuff",
         "description" : "Ask legenday football coach John Madden any question and expect a response in the form of a football play",
         "tools" : "HTML, CSS, Javascript (jQuery)",
         "image" : "../img/projects/askmaddenstuff.png",
-        "link" : "https://github.com/jmcacioppo/swamphacks17_askmaddenstuff"
+        "link" : "https://github.com/jmcacioppo/askmaddenstuff"
     },
     {
         "title" : "Dandelion",
