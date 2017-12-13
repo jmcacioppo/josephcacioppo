@@ -1,7 +1,7 @@
 [{
     "id" : "0",
     "title" : "Javascript", 
-    "frameworks" : "Angular, Aurelia, Express, Node"
+    "frameworks" : "Angular, Aurelia, Express, MongoDB, Node"
 },
 {
     "id" : "1",
@@ -21,7 +21,7 @@
 {
     "id" : "4",
     "title" : "Testing", 
-    "frameworks" : "Jasmine (using Karma as test runner)"
+    "frameworks" : "Jasmine (using Karma as test runner), Mocha"
 },
 {
     "id" : "5",
@@ -32,5 +32,4 @@
     "id" : "6",
     "title" : "PHP", 
     "frameworks" : "None"
-}
-]
+}]
