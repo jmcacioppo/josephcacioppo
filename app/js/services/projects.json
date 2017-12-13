@@ -1,5 +1,12 @@
 [
     {
+        "title" : "Health Tracker",
+        "description" : "A web application to help improve healthy dietary behaviors.",
+        "tools" : "HTML, CSS, MEAN.JS",
+        "image" : "../img/projects/health-tracker.png",
+        "link" : "https://github.com/Group7A/health-tracker"
+    },
+    {
         "title" : "MoneyManage.io",
         "description" : "Personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
         "tools" : "HTML, CSS, Javascript (Aurelia)",
