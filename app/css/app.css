@@ -36,9 +36,53 @@ body, html {
     background-size: cover;
 }
 
+/* NAVBAR */
 .navbar-custom {
     background-color: #C23249;
 }
+
+/* .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #C23249;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+
+/* .nav-header {
+    grid-area: header;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fa4349;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* END NAVBAR */
 
 #logo {
     margin-left: 15px;

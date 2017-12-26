@@ -1,3 +1,5 @@
+<!-- TODO: Get rid of #/! -->
+<!-- TODO: Improve navbar -->
 <!-- TODO: Make this more responsive for mobile -->
 <!-- TODO: Make site faster making images better for quick websites -->
 <div class="bg">
@@ -13,20 +15,31 @@
     <h2 id="homesubtitle"><b>Software Developer</b></h2>
 </div>
 
-<nav class="navbar navbar-default">
+<div class="grid-container" ng-controller="NavController">
+    <div>
+        <ul class="nav-header">
+            <li><a href="#!/">Joseph Cacioppo</a></li>
+            <li ng-class="{ active: isActive('#!/')}"><a href="#!/">Home</a></li>
+            <li ng-class="{ active: isActive('#!/aboutme')}"><a href="#!/aboutme">About Me</a></li>
+            <li ng-class="{ active: isActive('#!/projects')}"><a href="#!/projects">Projects</a></li>
+            <li ng-class="{ active: isActive('#!/resume')}"><a href="#!/resume">Resume</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#!/">Joseph Cacioppo</a>
-        </div>
-
-        <!-- TODO: Make navbar better -->
-        <div class="navbar-collapse" ng-controller="NavController">
+        </div> -->
+        <!-- <div class="navbar-collapse" ng-controller="NavController">
             <ul class="nav navbar-nav">
                 <li ng-class="{ active: isActive('#!/')}"><a href="#!/">Home</a></li>
                 <li ng-class="{ active: isActive('#!/aboutme')}"><a href="#!/aboutme">About Me</a></li>
                 <li ng-class="{ active: isActive('#!/projects')}"><a href="#!/projects">Projects</a></li>
                 <li ng-class="{ active: isActive('#!/resume')}"><a href="#!/resume">Resume</a></li>
             </ul>
-        </div>
-    </div>
-</nav>
+        </div> -->
+        
+    <!-- </div>
+</nav> -->
