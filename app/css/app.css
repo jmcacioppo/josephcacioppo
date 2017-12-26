@@ -59,7 +59,15 @@ body, html {
     grid-area: header;
 } */
 
+.grid-header {
+    background-color: #fa4349;
+    text-align: center;
+    margin: 0 auto;
+    height: 80%;
+}
+
 ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -80,7 +88,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #fdafb2;
+    text-decoration: none;
 }
 /* END NAVBAR */
 
