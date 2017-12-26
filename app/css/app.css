@@ -29,7 +29,6 @@ body, html {
 
 .bg {
     background-image: url('/img/background/bluebackground.jpg');
-
     height: 125%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -37,33 +36,15 @@ body, html {
 }
 
 /* NAVBAR */
-.navbar-custom {
-    background-color: #C23249;
+.nav-header {
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
-/* .grid-container {
-    display: grid;
-    grid-gap: 10px;
-    background-color: #C23249;
-    padding: 10px;
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-} */
-
-/* .nav-header {
-    grid-area: header;
-} */
-
-.grid-header {
+.nav-container {
     background-color: #fa4349;
     text-align: center;
     margin: 0 auto;
-    height: 80%;
 }
 
 ul {
@@ -89,6 +70,7 @@ li a {
 
 li a:hover {
     background-color: #fdafb2;
+    color: white;
     text-decoration: none;
 }
 /* END NAVBAR */
