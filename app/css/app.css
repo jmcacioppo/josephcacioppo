@@ -68,7 +68,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover, li:active {
     background-color: #fdafb2;
     color: white;
     text-decoration: none;
