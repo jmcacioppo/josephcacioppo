@@ -18,23 +18,10 @@
 <div class="grid-container" ng-controller="NavController">
     <div class="nav-container">
         <ul class="nav-header">
-            <li ng-repeat="option in navOptions" ng-click="checkActive(option)"
-                ng-class="option.active ? 'active' : 'none'">
+            <li ng-repeat="option in navOptions"
+                ng-class="{ 'activeOption' : checkActive(option) }">
                 <b><a ng-href="{{option.link}}">{{option.title}}</a></b>
             </li>
-            
-            <!-- <li ng-class="{ active: isActive('#!/') }">
-                <b><a href="#!/">Home</a></b>
-            </li>
-            <li ng-class="{ active: isActive('#!/aboutme') }">
-                <b><a href="#!/aboutme">About Me</a></b>
-            </li>
-            <li ng-class="{ active: isActive('#!/projects') }">
-                <b><a href="#!/projects">Projects</a></b>
-            </li>
-            <li ng-class="{ active: isActive('#!/resume') }">
-                <b><a href="#!/resume">Resume</a></b>
-            </li> -->
         </ul>
     </div>
 </div>

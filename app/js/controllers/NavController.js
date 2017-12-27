@@ -22,15 +22,9 @@ josephcacioppo.controller('NavController',
             title : 'Resume',
             active: false
         }];
-        
-        $scope.isActive = function (viewLocation) {
-            var sameLocation = viewLocation === '#!' + $location.path();
-            console.log(sameLocation);
-            return sameLocation;
-        };
 
         $scope.checkActive = function (option) {
-            option.active = true;
-            console.log(option);
+            if(option.link === '#!' + $location.path()) return true;
+            else return false;
         };
     });

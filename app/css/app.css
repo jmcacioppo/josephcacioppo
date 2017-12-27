@@ -68,9 +68,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover, li:active {
+li a:hover, .activeOption {
     background-color: #fdafb2;
-    color: white;
+    color: #222E7A;
     text-decoration: none;
 }
 /* END NAVBAR */
