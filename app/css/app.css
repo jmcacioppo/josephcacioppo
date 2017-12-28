@@ -108,17 +108,14 @@ span {
     text-align: center;
 }
 
-/* thead {
-    background-color: #fdafb2;
-} */
-
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color: #c9c9c9;
+thead {
+    background-color: #222E7A;
+    color: white;
 }
 
 #lifeExp {
-    width: 40%;
-    height: 40%;
+    width: 25%;
+    height: 25%;
 }
 
 #projectImage {
@@ -131,4 +128,8 @@ span {
 
 .btn {
     background-color: #222E7A;
+}
+
+.panel-title {
+    color: #222E7A !important;
 }

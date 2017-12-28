@@ -1,7 +1,7 @@
 [{
     "id" : "0",
     "title" : "Javascript", 
-    "frameworks" : "Angular, Aurelia, Express, MongoDB, Node"
+    "frameworks" : "Aurelia, MEAN.JS (Mongo, Express, Angular, Node)"
 },
 {
     "id" : "1",
@@ -16,7 +16,7 @@
 {
     "id" : "3",
     "title" : "Python", 
-    "frameworks" : "None"
+    "frameworks" : "Beautiful Soup"
 },
 {
     "id" : "4",
