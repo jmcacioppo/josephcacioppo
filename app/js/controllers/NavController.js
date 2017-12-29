@@ -4,29 +4,29 @@ josephcacioppo.controller('NavController',
     function($scope, $location) {
         $scope.navOptions = [
             {
-                link : "#!/",
+                link : "/",
                 title : 'Home',
                 active: false
             }, 
             {
-                link : "#!/aboutme",
+                link : "/aboutme",
                 title : 'About Me',
                 active: false
             },
             {
-                link : "#!/projects",
+                link : "/projects",
                 title : 'Projects',
                 active: false
             },
             {
-                link : "#!/resume",
+                link : "/resume",
                 title : 'Resume',
                 active: false
             }
         ];
 
         $scope.checkActive = function (option) {
-            if(option.link === '#!' + $location.path()) return true;
+            if(option.link === $location.path()) return true;
             else return false;
         };
     });
