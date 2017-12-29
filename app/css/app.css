@@ -126,6 +126,31 @@ thead {
   opacity: 0.7; 
 }
 
+@media screen and (max-width: 800px) {
+    #projectImage {
+        width: 300px;
+        height: 150px;
+    }
+
+    .projectContainer {
+        height: 200px !important;
+        width: 500px;
+        margin: 0 auto !important;
+    }
+
+    .projectInfoContainer {
+        height: 200px !important;
+        width: 500px;
+    }
+
+    .projectInfo {
+        height: 50px;
+        width: 90%;
+        font-size: 70%;
+        vertical-align: top !important;
+    }    
+}
+
 .btn {
     background-color: #222E7A;
 }
