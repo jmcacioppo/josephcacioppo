@@ -120,6 +120,10 @@ span {
     float:left;
 }
 
+.jumbotron {
+    background-color: #fdafb2 !important;
+}
+
 .contactInfo {
     padding: 50px;
 }
