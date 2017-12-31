@@ -13,7 +13,7 @@ body, html {
 }
 
 #content {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 #footer {
@@ -108,11 +108,32 @@ span {
     text-align: center;
 }
 
-.contactInfo {
-    height: 500px; 
+.homePic {
+    float: right;
+}
+
+.contactInfoContainer {
+    height: 400px; 
     display: flex; 
     justify-content: center;
     align-items: center; 
+    float:left;
+}
+
+.contactInfo {
+    padding: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .contactInfoContainer {
+        height: 250px;
+        float: none;
+        padding: 25px;
+    }
+
+    .homePic {
+        float: none;
+    }
 }
 
 thead {
