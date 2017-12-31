@@ -108,6 +108,13 @@ span {
     text-align: center;
 }
 
+.contactInfo {
+    height: 500px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
 thead {
     background-color: #222E7A;
     color: white;
