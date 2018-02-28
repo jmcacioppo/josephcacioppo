@@ -1,5 +1,12 @@
 [
     {
+        "title" : "Receipt-less",
+        "description" : "Financial management tool intended to reduce the number of printed receipts.",
+        "tools" : "HTML, CSS, Angular, MongoDB, Docker, Go",
+        "image" : "../img/projects/receipt-less.png",
+        "link" : "https://github.com/joeySchentrup/receipt-less"
+    },
+    {
         "title" : "Health Tracker",
         "description" : "A web application to help improve healthy dietary behaviors.",
         "tools" : "HTML, CSS, MEAN.JS",
