@@ -30,7 +30,6 @@ html {
 
 #headerBackground {
     background-image: url('/img/background/bluebackground.jpg');
-    /* height: 125%;  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
