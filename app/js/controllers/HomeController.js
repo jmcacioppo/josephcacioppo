@@ -6,12 +6,13 @@ josephcacioppo.controller('HomeController',
         headerBackground.style.width = `${window.innerWidth}px`;
         homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
         
-        window.addEventListener("resize", Util.debounce(function (event) {
+        var resizeWindow = Util.debounce(function () {
             headerBackground.style.height = `${window.innerHeight}px`;
             headerBackground.style.width = `${window.innerWidth}px`;
             homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
-            console.log('yo');
-        }), 10000);
+        }, 20);
+
+        window.addEventListener("resize", resizeWindow);
         
         $scope.phone = "(305) 794-7034";
 
@@ -19,5 +20,7 @@ josephcacioppo.controller('HomeController',
             $(".nav li").removeClass("active");
             $(this).addClass("active");
         });
+
+        
     }
 );
