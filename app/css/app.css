@@ -1,7 +1,8 @@
 /*BLUE = #222E7A ???
 RED = #fa4349 ???*/
 
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -27,15 +28,16 @@ body, html {
     text-align: center;
 }
 
-.bg {
+#headerBackground {
     background-image: url('/img/background/bluebackground.jpg');
-    height: 125%; 
+    /* height: 125%;  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* NAVBAR */
+
 .nav-header {
     margin-bottom: 0px;
     margin-top: 5px;
@@ -68,11 +70,13 @@ li a {
     text-decoration: none;
 }
 
-li a:hover, .activeOption {
+li a:hover,
+.activeOption {
     background-color: #fdafb2;
     color: #222E7A;
     text-decoration: none;
 }
+
 /* END NAVBAR */
 
 #logo {
@@ -86,25 +90,24 @@ span {
 }
 
 #hometitle {
-    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     vertical-align: center;
-    color: white;
-}
-
-#hometitle {
-    font-size: 50px;
 }
 
 #homesubtitle {
-    text-align: center;
-    vertical-align: center;
     color: white;
     font-size: 30px;
     margin-bottom: 21%;
+    text-align: center;
+    vertical-align: center;
 }
 
-#home, #aboutme, #projects {
+#home,
+#aboutme,
+#projects {
     text-align: center;
 }
 
@@ -113,11 +116,11 @@ span {
 }
 
 .contactInfoContainer {
-    height: 400px; 
-    display: flex; 
+    height: 400px;
+    display: flex;
     justify-content: center;
-    align-items: center; 
-    float:left;
+    align-items: center;
+    float: left;
 }
 
 .jumbotron {
@@ -134,7 +137,6 @@ span {
         float: none;
         padding: 25px;
     }
-
     .homePic {
         float: none;
     }
@@ -154,8 +156,8 @@ thead {
     opacity: 1;
 }
 
-#projectImage:hover { 
-  opacity: 0.7; 
+#projectImage:hover {
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 800px) {
@@ -163,24 +165,21 @@ thead {
         width: 300px;
         height: 150px;
     }
-
     .projectContainer {
         height: 200px !important;
         width: 500px;
         margin: 0 auto !important;
     }
-
     .projectInfoContainer {
         height: 200px !important;
         width: 500px;
     }
-
     .projectInfo {
         height: 50px;
         width: 90%;
         font-size: 70%;
         vertical-align: top !important;
-    }    
+    }
 }
 
 .btn {
