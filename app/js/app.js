@@ -25,30 +25,32 @@ var josephcacioppo = angular.module('josephcacioppo', ['ngRoute'])
     $locationProvider.html5Mode(true);    
   });
 
-josephcacioppo.controller('InitializingController', function($scope, $window, Util) {
+josephcacioppo.controller('InitializationController', function($scope, $window, Util) {
   let headerBackground = '';
   let homeTitle = '';
 
-  window.addEventListener('load', function () {
-    headerBackground = document.getElementById('headerBackground');
-    homeTitle = document.getElementById('hometitle');
-    configureWindowSize();
-    setResize();
-  });
+  // window.addEventListener('load', function () {
+  window.onload = function () {
+    setTimeout(function() {
+      headerBackground = document.getElementById('headerBackground');
+      homeTitle = document.getElementById('hometitle');
+  
+      configureWindowSize();
+      setResize();
+    }, 0)
+  };
   
   function configureWindowSize() {
     headerBackground.style.height = `${window.innerHeight}px`;
-    headerBackground.style.width = `${window.innerWidth}px`;
     homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
   }
 
   function setResize() {
     var resizeWindow = Util.debounce(function () {
       headerBackground.style.height = `${window.innerHeight}px`;
-      headerBackground.style.width = `${window.innerWidth}px`;
       homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
     }, 20);
-  
-    window.addEventListener("resize", resizeWindow);
+
+    window.addEventListener("resize", resizeWindow);    
   }
 });
