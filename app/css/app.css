@@ -1,11 +1,15 @@
-/*BLUE = #222E7A ???
-RED = #fa4349 ???*/
+/*
+  BLUE = #222E7A
+  RED = #fa4349 
+*/
 
 body,
 html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
+    width: 100%;
 }
 
 #app {
@@ -19,13 +23,13 @@ html {
 
 #footer {
     background: #fa4349;
-    color: white;
-    width: 100%;
-    height: 60px;
-    position: absolute;
     bottom: 0;
+    color: white;
+    height: 60px;
     left: 0;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 
 #headerBackground {
@@ -44,17 +48,17 @@ html {
 
 .nav-container {
     background-color: #fa4349;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 ul {
+    background-color: #fa4349;
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #fa4349;
+    padding: 0;
 }
 
 li {
@@ -62,10 +66,10 @@ li {
 }
 
 li a {
-    display: block;
     color: white;
-    text-align: center;
+    display: block;
     padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -79,9 +83,9 @@ li a:hover,
 /* END NAVBAR */
 
 #logo {
+    height: 85px;
     margin-left: 15px;
     width: 120px;
-    height: 85px;
 }
 
 span {
@@ -91,7 +95,6 @@ span {
 #hometitle {
     color: white;
     font-size: 50px;
-    /* margin-top: 50px; */
     text-align: center;
     vertical-align: center;
 }
@@ -115,11 +118,11 @@ span {
 }
 
 .contactInfoContainer {
-    height: 400px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     float: left;
+    height: 400px;
+    justify-content: center;
 }
 
 .jumbotron {
@@ -161,13 +164,13 @@ thead {
 
 @media screen and (max-width: 800px) {
     #projectImage {
-        width: 300px;
         height: 150px;
+        width: 300px;
     }
     .projectContainer {
         height: 200px !important;
-        width: 500px;
         margin: 0 auto !important;
+        width: 500px;
     }
     .projectInfoContainer {
         height: 200px !important;
