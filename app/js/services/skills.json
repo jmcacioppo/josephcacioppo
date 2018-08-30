@@ -1,35 +1,37 @@
-[{
+[
+  {
     "id" : "0",
     "title" : "Javascript", 
     "frameworks" : "Aurelia, MEAN.JS (Mongo, Express, Angular, Node)"
-},
-{
+  },
+  {
     "id" : "1",
     "title" : "HTML & CSS", 
     "frameworks" : "Bootstrap"
-},
-{
+  },
+  {
     "id" : "2",
     "title" : "C & C++", 
     "frameworks" : "None"
-},
-{
+  },
+  {
     "id" : "3",
     "title" : "Python", 
     "frameworks" : "Beautiful Soup"
-},
-{
+  },
+  {
     "id" : "4",
     "title" : "Testing", 
     "frameworks" : "Jasmine (using Karma as test runner), Mocha"
-},
-{
+  },
+  {
     "id" : "5",
     "title" : "SQL", 
     "frameworks" : "None"
-},
-{
+  },
+  {
     "id" : "6",
     "title" : "PHP", 
     "frameworks" : "None"
-}]
+  }
+]

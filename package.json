@@ -1,7 +1,7 @@
 {
   "name": "josephcacioppo",
-  "version": "1.0.0",
-  "description": "This is the website for Joseph Cacioppo.",
+  "version": "1.0.1",
+  "description": "This is the personal website for Joseph Cacioppo, a software developer.",
   "main": "index.js",
   "author": "Joseph Cacioppo",
   "dependencies": {

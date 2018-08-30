@@ -1,20 +1,22 @@
 <div class="container">
-    <div style="padding-bottom: 20px;" ng-repeat="project in projects" class="row featurette projectContainer">
-        <div style="display: table; height:300px;" class="col-xs-3 projectInfoContainer">
-            <p style="display: table-cell; vertical-align:middle;" class="projectInfo">
-                <b>Title:</b> {{project.title}}
-                <br> <br>
-                <b>Used to:</b> {{project.description}}
-                <br> <br>
-                <b>Built with:</b> {{project.tools}}
-            </p>
-        </div>
-
-        <div class="col-xs-9">
-            <a target="_blank" href="{{project.link}}">
-                <img id="projectImage" class="featurette-image img-fluid mx-auto" 
-                src="{{project.image}}" width="600" height="300">
-            </a>
-        </div>
+  <div style="padding-bottom: 20px;" ng-repeat="project in projects" class="row featurette projectContainer">
+    
+    <div style="display: table; height:300px;" class="col-xs-3 projectInfoContainer">
+      <p style="display: table-cell; vertical-align:middle;" class="projectInfo">
+        <b>Title:</b> {{project.title}}
+        <br> <br>
+        <b>Used to:</b> {{project.description}}
+        <br> <br>
+        <b>Built with:</b> {{project.tools}}
+      </p>
     </div>
+
+    <div class="col-xs-9">
+      <a target="_blank" href="{{project.link}}">
+        <img id="projectImage" class="featurette-image img-fluid mx-auto" 
+          src="{{project.image}}" width="600" height="300">
+      </a>
+    </div>
+
+  </div>
 </div>

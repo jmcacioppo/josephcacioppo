@@ -1,24 +1,29 @@
 <div class="container">
-    <hr>
-    <h2>My Life</h2>
-    <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-            <div ng-repeat="life in mylife" class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion" ng-href="#{{life.id}}" target="_self" style="text-decoration: none">
-                    <div class="panel-heading">
-                        <h4 class="panel-title"> 
-                            {{life.title}}
-                        </h4>
-                    </div>
-                </a>
-                <div id="{{life.id}}" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        {{life.description}}
-                    </div>
-                    <img id="lifeExp" src="{{life.image1}}" alt="{{life.title}}">
-                    <img id="lifeExp" src="{{life.image2}}" alt="{{life.title}}">
-                </div>
-            </div>
+  <hr>
+  <h2>My Life</h2>
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div ng-repeat="life in mylife" class="panel panel-default">
+        
+        <a data-toggle="collapse" data-parent="#accordion" ng-href="#{{life.id}}" target="_self" style="text-decoration: none">
+          <div class="panel-heading">
+            <h4 class="panel-title"> 
+              {{life.title}}
+            </h4>
+          </div>
+        </a>
+
+        <div id="{{life.id}}" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{life.description}}
+          </div>
+
+          <img id="lifeExp" src="{{life.image1}}" alt="{{life.title}}">
+          <img id="lifeExp" src="{{life.image2}}" alt="{{life.title}}">
         </div>
+
+      </div>
     </div>
+  </div>
 </div>
