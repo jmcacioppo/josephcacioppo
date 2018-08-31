@@ -1,0 +1,27 @@
+#headerBackground {
+    background-image: url('/img/background/bluebackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 85px;
+    margin-left: 15px;
+    width: 120px;
+}
+
+#hometitle {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#homesubtitle {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 21%;
+    text-align: center;
+    vertical-align: center;
+}

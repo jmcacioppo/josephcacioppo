@@ -1,0 +1,43 @@
+.projectContainer {
+    padding-bottom: 20px;
+}
+
+.projectInfoContainer {
+    display: table;
+    height: 300px;
+}
+
+.projectInfo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.projectImage {
+    opacity: 1;
+}
+
+.projectImage:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 800px) {
+    .projectImage {
+        height: 150px;
+        width: 300px;
+    }
+    .projectContainer {
+        height: 200px !important;
+        margin: 0 auto !important;
+        width: 500px;
+    }
+    .projectInfoContainer {
+        height: 200px !important;
+        width: 500px;
+    }
+    .projectInfo {
+        height: 50px;
+        width: 90%;
+        font-size: 70%;
+        vertical-align: top !important;
+    }
+}

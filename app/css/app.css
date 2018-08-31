@@ -32,156 +32,17 @@ html {
     width: 100%;
 }
 
-#headerBackground {
-    background-image: url('/img/background/bluebackground.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* NAVBAR */
-
-.nav-header {
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-
-.nav-container {
-    background-color: #fa4349;
-    margin: 0 auto;
-    text-align: center;
-}
-
-ul {
-    background-color: #fa4349;
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    color: white;
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-}
-
-li a:hover,
-.activeOption {
-    background-color: #fdafb2;
-    color: #222E7A;
-    text-decoration: none;
-}
-
-/* END NAVBAR */
-
-#logo {
-    height: 85px;
-    margin-left: 15px;
-    width: 120px;
-}
-
-span {
+.verticalSpacing {
     line-height: 150px;
 }
 
-#hometitle {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    vertical-align: center;
-}
-
-#homesubtitle {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 21%;
-    text-align: center;
-    vertical-align: center;
-}
-
-#home,
-#aboutme,
-#projects {
+.centerText {
     text-align: center;
 }
 
-.homePic {
-    float: right;
-}
-
-.contactInfoContainer {
-    align-items: center;
-    display: flex;
-    float: left;
-    height: 400px;
-    justify-content: center;
-}
-
-.jumbotron {
-    background-color: #fdafb2 !important;
-}
-
-.contactInfo {
-    padding: 50px;
-}
-
-@media screen and (max-width: 991px) {
-    .contactInfoContainer {
-        height: 250px;
-        float: none;
-        padding: 25px;
-    }
-    .homePic {
-        float: none;
-    }
-}
-
-thead {
-    background-color: #222E7A;
-    color: white;
-}
-
-#lifeExp {
-    width: 25%;
-    height: 25%;
-}
-
-#projectImage {
-    opacity: 1;
-}
-
-#projectImage:hover {
-    opacity: 0.7;
-}
-
-@media screen and (max-width: 800px) {
-    #projectImage {
-        height: 150px;
-        width: 300px;
-    }
-    .projectContainer {
-        height: 200px !important;
-        margin: 0 auto !important;
-        width: 500px;
-    }
-    .projectInfoContainer {
-        height: 200px !important;
-        width: 500px;
-    }
-    .projectInfo {
-        height: 50px;
-        width: 90%;
-        font-size: 70%;
-        vertical-align: top !important;
-    }
+.sectionText {
+    width: 65%;
+    margin: 0 auto;
 }
 
 .btn {

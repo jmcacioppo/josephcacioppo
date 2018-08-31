@@ -9,7 +9,7 @@
     <img style="float: right; margin-top: 2%; margin-right:1%;" src="/img/logo/GitHub-Mark-Light-32px.png" alt="Github Logo"/>
   </a>
 
-  <span></span>
+  <span class="verticalSpacing"></span>
   
   <h1 id="hometitle"><b>Joseph Cacioppo</b></h1>
   <h2 id="homesubtitle"><b>Software Developer</b></h2>
@@ -20,7 +20,7 @@
   <div class="nav-container">
     <ul class="nav-header">
 
-      <li ng-repeat="option in navOptions" ng-class="{ 'activeOption' : checkActive(option) }">
+      <li ng-repeat="option in navOptions" class="nav-items" ng-class="{ 'activeOption' : checkActive(option) }">
         <b><a ng-href="{{option.link}}">{{option.title}}</a></b>
       </li>
 
