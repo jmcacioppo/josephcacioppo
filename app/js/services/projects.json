@@ -24,30 +24,6 @@
     "showData" : false
   },
   {
-    "title" : "josephcacioppo.com",
-    "description" : "Showcase my experience in software development",
-    "tools" : "HTML, CSS, Javascript (Angular)",
-    "image" : "../img/projects/josephcacioppo.png",
-    "link" : "https://github.com/jmcacioppo/josephcacioppo",
-    "showData" : false
-  },
-  {
-    "title" : "Life Expectancy Calculator",
-    "description" : "Calculate life expectancy estimate based on user personal information, health, and occupation",
-    "tools" : "HTML, CSS, Javascript (Aurelia)",
-    "image" : "../img/projects/lifeExpectancyCalculator.png",
-    "link" : "https://github.com/jmcacioppo/LifeExpectancyCalculator",
-    "showData" : false
-  },
-  {
-    "title" : "Economic Data Engine",
-    "description" : "Analyze census data to predict economic success in Florida communities",
-    "tools" : "HTML, CSS, Javascript (jQuery), SQL, PHP",
-    "image" : "../img/projects/EDE.png",
-    "link" : "https://github.com/jmcacioppo/EconomicDataEngine",
-    "showData" : false
-  },
-  {
     "title" : "Ask Madden Stuff",
     "description" : "Ask legenday football coach John Madden any question and expect a response in the form of a football play",
     "tools" : "HTML, CSS, Javascript (jQuery)",

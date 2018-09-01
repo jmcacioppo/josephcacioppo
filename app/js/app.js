@@ -7,18 +7,6 @@ var josephcacioppo = angular.module('josephcacioppo', ['ngRoute'])
         templateUrl: 'templates/home.html',
         controller: 'HomeController'
       })
-      .when('/aboutme', {
-        templateUrl: 'templates/aboutme.html',
-        controller: 'AboutMeController'
-      })
-      .when('/projects', {
-        templateUrl: 'templates/projects.html',
-        controller: 'ProjectsController'
-      })
-      .when('/resume', {
-        templateUrl: 'templates/resume.html',
-        controller: 'ResumeController'
-      })
       .otherwise({redirectTo: '/'});
     
     // Use the HTML5 History API
