@@ -1,7 +1,7 @@
 [
   {
     "title" : "Receipt-less",
-    "description" : "Financial management tool intended to reduce the number of printed receipts.",
+    "description" : "Provide a financial management tool in order to reduce the user's number of printed receipts.",
     "tools" : "HTML, CSS, Angular, MongoDB, Docker, Go",
     "image" : "../img/projects/receipt-less.png",
     "link" : "https://github.com/joeySchentrup/receipt-less",
@@ -9,7 +9,7 @@
   },
   {
     "title" : "Health Tracker",
-    "description" : "A web application to help improve healthy dietary behaviors.",
+    "description" : "Improve healthy dietary behaviors of users.",
     "tools" : "HTML, CSS, MEAN.JS",
     "image" : "../img/projects/health-tracker.png",
     "link" : "https://github.com/Group7A/health-tracker",
@@ -17,7 +17,7 @@
   },
   {
     "title" : "MoneyManage.io",
-    "description" : "Personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
+    "description" : "Act as a personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
     "tools" : "HTML, CSS, Javascript (Aurelia)",
     "image" : "../img/projects/MoneyManage.png",
     "link" : "https://github.com/jmcacioppo/MoneyManage.io",

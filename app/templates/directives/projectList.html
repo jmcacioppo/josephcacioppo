@@ -1,23 +1,22 @@
 <div class="container">
   <div ng-repeat="project in projects" ng-class="($index % 3 === 2) ? 'row' : ''">
 
-    <div class="projectInfoContainer col-md-4" ng-mouseover="mouseIsOver(project)" ng-mouseleave="mouseIsGone(project)">
+    <div class="projectInfoContainer col-md-4" ng-class="project.showData ? 'projectInfo' : ''" ng-mouseover="mouseIsOver(project)" ng-mouseleave="mouseIsGone(project)">
       
-      <a target="_blank" href="{{project.link}}">
+      <a class="projectInfoLink" target="_blank" href="{{project.link}}">
 
         <img ng-if="!project.showData" class="projectImage" src="{{project.image}}" width="350" height="250">
 
-        <p ng-if="project.showData" class="projectInfo">
+        <div ng-if="project.showData">
           <b>Title:</b> {{project.title}}
           <br> <br>
           <b>Used to:</b> {{project.description}}
           <br> <br>
           <b>Built with:</b> {{project.tools}}
-        </p>
+        </div>
 
       </a>
 
-      <br> <br> <br>
     </div>
 
   </div>

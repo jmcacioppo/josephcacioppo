@@ -1,6 +1,6 @@
 /*
   BLUE = #222E7A
-  RED = #fa4349 
+  RED = #FA4349 
 */
 
 body,
@@ -22,9 +22,9 @@ html {
 }
 
 #footer {
-    background: #fa4349;
+    background: #FA4349;
     bottom: 0;
-    color: white;
+    color: #F8F8F8;
     height: 60px;
     left: 0;
     position: absolute;
@@ -41,8 +41,9 @@ html {
 }
 
 .sectionText {
-    width: 65%;
-    margin: 0 auto;
+  font-size: 1.15em;
+  margin: 0 auto;
+  width: 65%;
 }
 
 .btn {

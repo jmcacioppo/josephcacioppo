@@ -1,11 +1,11 @@
 .nav-container {
-    background-color: #fa4349;
+    background-color: #FA4349;
     margin: 0 auto;
     text-align: center;
 }
 
 .nav-header {
-    background-color: #fa4349;
+    background-color: #FA4349;
     display: inline-block;
     list-style-type: none;
     margin-bottom: 0px;
@@ -19,7 +19,7 @@
 }
 
 .nav-items a {
-    color: white;
+    color: #F8F8F8;
     display: block;
     padding: 14px 16px;
     text-align: center;
@@ -28,7 +28,7 @@
 
 .nav-items a:hover,
 .activeOption {
-    background-color: #fdafb2;
+    background-color: #FDAFB2;
     color: #222E7A;
     text-decoration: none;
 }
