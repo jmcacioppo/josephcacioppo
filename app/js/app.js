@@ -42,13 +42,13 @@ josephcacioppo.controller('InitializationController', function($scope, $window, 
   
   function configureWindowSize() {
     headerBackground.style.height = `${window.innerHeight}px`;
-    homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
+    homeTitle.style.marginTop = `${window.innerHeight * .20}px`;
   }
 
   function setResize() {
     var resizeWindow = Util.debounce(function () {
       headerBackground.style.height = `${window.innerHeight}px`;
-      homeTitle.style.marginTop = `${window.innerHeight * .15}px`;
+      homeTitle.style.marginTop = `${window.innerHeight * .20}px`;
     }, 20);
 
     window.addEventListener("resize", resizeWindow);    

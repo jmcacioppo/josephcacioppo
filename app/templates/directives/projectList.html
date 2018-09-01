@@ -1,21 +1,23 @@
 <div class="container">
-  <div class="row featurette projectContainer" ng-repeat="project in projects">
-    
-    <div class="projectInfoContainer col-xs-3">
-      <p class="projectInfo">
-        <b>Title:</b> {{project.title}}
-        <br> <br>
-        <b>Used to:</b> {{project.description}}
-        <br> <br>
-        <b>Built with:</b> {{project.tools}}
-      </p>
-    </div>
+  <div ng-repeat="project in projects" ng-class="($index % 3 === 2) ? 'row' : ''">
 
-    <div class="col-xs-9">
+    <div class="projectInfoContainer col-md-4" ng-mouseover="mouseIsOver(project)" ng-mouseleave="mouseIsGone(project)">
+      
       <a target="_blank" href="{{project.link}}">
-        <img class="projectImage featurette-image img-fluid mx-auto" 
-          src="{{project.image}}" width="600" height="300">
+
+        <img ng-if="!project.showData" class="projectImage" src="{{project.image}}" width="350" height="250">
+
+        <p ng-if="project.showData" class="projectInfo">
+          <b>Title:</b> {{project.title}}
+          <br> <br>
+          <b>Used to:</b> {{project.description}}
+          <br> <br>
+          <b>Built with:</b> {{project.tools}}
+        </p>
+
       </a>
+
+      <br> <br> <br>
     </div>
 
   </div>
