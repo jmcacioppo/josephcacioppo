@@ -11,17 +11,14 @@
     width: 120px;
 }
 
-#hometitle {
-    color: #F8F8F8;
-    font-size: 4em;
-    text-align: center;
-    vertical-align: center;
+#homeTitle, #homeSubtitle {
+  color: #F8F8F8;
 }
 
-#homesubtitle {
-    color: #F8F8F8;
-    font-size: 30px;
-    margin-bottom: 21%;
-    text-align: center;
-    vertical-align: center;
+#homeTitle {
+  font-size: 4em;
+}
+
+#homeSubtitle {
+  font-size: 2em;
 }

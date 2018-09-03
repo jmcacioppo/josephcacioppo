@@ -1,9 +1,14 @@
 .table-header-colors {
-    background-color: #222E7A;
-    color: #F8F8F8;
+  background-color: #222E7A;
+  color: #F8F8F8;
 }
 
-.lifeExperiences {
-    width: 25%;
-    height: 25%;
+.skillsTable, .myLifeAccordion {
+  margin: 0 auto;
+  width: 60% !important;
+}
+
+.lifePic {
+  height: 25%;
+  width: 25%;
 }

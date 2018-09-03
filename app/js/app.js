@@ -21,7 +21,7 @@ josephcacioppo.controller('InitializationController', function($scope, $window, 
   window.onload = function () {
     setTimeout(function() {
       headerBackground = document.getElementById('headerBackground');
-      homeTitle = document.getElementById('hometitle');
+      homeTitle = document.getElementById('homeTitle');
   
       configureWindowSize();
       setResize();
