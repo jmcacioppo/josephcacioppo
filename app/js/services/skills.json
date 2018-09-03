@@ -1,27 +1,46 @@
 [
   {
-    "id" : "0",
-    "title" : "Javascript", 
-    "frameworks" : "Aurelia, MEAN.JS (Mongo, Express, Angular, Node)"
+    "title" : "HTML", 
+    "frameworks" : [
+      "HTML5"
+    ]
   },
   {
-    "id" : "1",
-    "title" : "HTML & CSS", 
-    "frameworks" : "Bootstrap"
+    "title" : "CSS", 
+    "frameworks" : [
+      "CSS3", 
+      "Bootstrap", 
+      "Sass"
+    ]
   },
   {
-    "id" : "2",
-    "title" : "Python", 
-    "frameworks" : "Beautiful Soup"
+    "title": "Javascript",
+    "frameworks": [
+      "Aurelia",
+      "Express",
+      "Angular",
+      "Node",
+      "Typescript"
+    ]
   },
   {
-    "id" : "3",
-    "title" : "Testing", 
-    "frameworks" : "Jasmine (using Karma as test runner), Mocha"
+    "title": "Backend",
+    "frameworks": [
+      "MongoDB"
+    ]
   },
   {
-    "id" : "4",
-    "title" : "SQL", 
-    "frameworks" : "None"
+    "title": "Build Tools",
+    "frameworks": [
+      "Webpack"
+    ]
+  },
+  {
+    "title": "Other",
+    "frameworks": [
+      "GitHub",
+      "Heroku",
+      "Yarn"
+    ]
   }
 ]

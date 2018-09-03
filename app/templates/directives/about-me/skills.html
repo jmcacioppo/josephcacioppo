@@ -2,20 +2,12 @@
   
   <h3>Skills</h3>
 
-  <table class="skillsTable table table-bordered">
+  <div ng-repeat="skill in skills">
+    <h4>{{skill.title}}</h4>
 
-    <thead class="table-header-colors">
-      <th class="centerText">Skill</th>
-      <th class="centerText">Frameworks/Libraries</th>
-    </thead>
-
-    <tbody>
-      <tr ng-repeat="skill in skills">
-        <td>{{skill.title}}</td>
-        <td>{{skill.frameworks}}</td>
-      </tr>
-    </tbody>
-
-  </table>
+    <div ng-repeat="framework in skill.frameworks">
+      {{framework}}
+    </div>
+  </div>
 
 </div>
