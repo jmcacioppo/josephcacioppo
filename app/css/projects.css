@@ -1,51 +1,55 @@
+.projectBackground {
+  background-color: rgb(212, 211, 211);
+}
+
 .projectInfoContainer {
-    height: 250px;
-    margin: 0;
-    margin-bottom: 15px;
-    padding: 0 !important;
-    width: 350px;
+  height: 250px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0 !important;
+  width: 350px;
 }
 
 .projectInfo {
-    background-color: #fff4f5;
-    padding: 4% 2% !important;
+  background-color: #fff4f5;
+  padding: 4% 2% !important;
 }
 
 .projectInfoLink {
-    color: #222E7A;
+  color: #222E7A;
 }
 
 .projectInfoLink:hover {
-    color: #222E7A;
-    text-decoration: none;
+  color: #222E7A;
+  text-decoration: none;
 }
 
 .projectImage {
-    opacity: 1;
+  opacity: 1;
 }
 
 .projectImage:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1199px) {
-    .projectInfoContainer,
-    .projectImage {
-        height: 225px;
-        width: 300px;
-    }
+  .projectInfoContainer,
+  .projectImage {
+    height: 225px;
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .projectInfoContainer,
-    .projectImage {
-        height: 400px;
-        width: 600px;
-    }
-    .projectInfo {
-        font-size: 70%;
-        height: 50px;
-        vertical-align: top !important;
-        width: 90%;
-    }
+  .projectInfoContainer,
+  .projectImage {
+    height: 400px;
+    width: 600px;
+  }
+  .projectInfo {
+    font-size: 70%;
+    height: 50px;
+    vertical-align: top !important;
+    width: 90%;
+  }
 }

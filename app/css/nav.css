@@ -1,34 +1,34 @@
 .nav-container {
-    background-color: #FA4349;
-    margin: 0 auto;
-    text-align: center;
+  background-color: #FA4349;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .nav-header {
-    background-color: #FA4349;
-    display: inline-block;
-    list-style-type: none;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    overflow: hidden;
-    padding: 0;
+  background-color: #FA4349;
+  display: inline-block;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  overflow: hidden;
+  padding: 0;
 }
 
 .nav-items {
-    float: left;
+  float: left;
 }
 
 .nav-items a {
-    color: #F8F8F8;
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
+  color: #F8F8F8;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .nav-items a:hover,
 .activeOption {
-    background-color: #FDAFB2;
-    color: #222E7A;
-    text-decoration: none;
+  background-color: #FDAFB2;
+  color: #222E7A;
+  text-decoration: none;
 }

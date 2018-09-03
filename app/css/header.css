@@ -1,14 +1,14 @@
 #headerBackground {
-    background-image: url('/img/background/bluebackground.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('/img/background/bluebackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo {
-    height: 85px;
-    margin-left: 15px;
-    width: 120px;
+  height: 85px;
+  margin-left: 15px;
+  width: 120px;
 }
 
 #headerTitle, #headerSubTitle {

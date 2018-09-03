@@ -1,6 +1,6 @@
 josephcacioppo.directive('resume', function($compile) {
   return {
     restrict: 'E',
-    templateUrl: 'templates/directives/resume/resume.html'
+    templateUrl: 'templates/directives/contact-me/resume.html'
   }
 });
