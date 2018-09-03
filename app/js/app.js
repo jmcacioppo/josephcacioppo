@@ -4,8 +4,8 @@ var josephcacioppo = angular.module('josephcacioppo', ['ngRoute'])
   .config(function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'templates/home.html',
-        controller: 'HomeController'
+        templateUrl: 'templates/main.html',
+        controller: 'MainController'
       })
       .otherwise({redirectTo: '/'});
     
@@ -15,13 +15,13 @@ var josephcacioppo = angular.module('josephcacioppo', ['ngRoute'])
 
 josephcacioppo.controller('InitializationController', function($scope, $window, Util) {
   let headerBackground = '';
-  let homeTitle = '';
+  let headerTitle = '';
 
   // window.addEventListener('load', function () {
   window.onload = function () {
     setTimeout(function() {
       headerBackground = document.getElementById('headerBackground');
-      homeTitle = document.getElementById('homeTitle');
+      headerTitle = document.getElementById('headerTitle');
   
       configureWindowSize();
       setResize();
@@ -30,13 +30,13 @@ josephcacioppo.controller('InitializationController', function($scope, $window, 
   
   function configureWindowSize() {
     headerBackground.style.height = `${window.innerHeight}px`;
-    homeTitle.style.marginTop = `${window.innerHeight * .20}px`;
+    headerTitle.style.marginTop = `${window.innerHeight * .20}px`;
   }
 
   function setResize() {
     var resizeWindow = Util.debounce(function () {
       headerBackground.style.height = `${window.innerHeight}px`;
-      homeTitle.style.marginTop = `${window.innerHeight * .20}px`;
+      headerTitle.style.marginTop = `${window.innerHeight * .20}px`;
     }, 20);
 
     window.addEventListener("resize", resizeWindow);    

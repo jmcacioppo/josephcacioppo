@@ -11,14 +11,14 @@
     width: 120px;
 }
 
-#homeTitle, #homeSubtitle {
+#headerTitle, #headerSubTitle {
   color: #F8F8F8;
 }
 
-#homeTitle {
+#headerTitle {
   font-size: 4em;
 }
 
-#homeSubtitle {
+#headerSubTitle {
   font-size: 2em;
 }
