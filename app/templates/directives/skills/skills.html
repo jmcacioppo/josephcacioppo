@@ -1,9 +1,11 @@
-<div>
+<div class="evenSectionBackground" ng-controller="SkillsController">
   
-  <h3>Skills</h3>
+  <h1 class="sectionTitle">Skills</h1>
 
   <div class="skillContainer" ng-repeat="skill in skills">
+    
     <div class="skill box-shadow--6dp">
+
       <h4>{{skill.title}}</h4>
 
       <hr>
@@ -19,8 +21,11 @@
           <br> <br>
         </div>
       </div>
+
     </div>
+
     <br>
+
   </div>
 
 </div>

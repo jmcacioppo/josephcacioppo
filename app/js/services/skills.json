@@ -70,7 +70,7 @@
         "image": "../img/skills/mongoose.png"
       },
       {
-        "name": "SQL",
+        "name": "MySQL",
         "image": "../img/skills/mysql.png"
       }
     ]
@@ -92,8 +92,8 @@
     "title": "Other",
     "frameworks": [
       {
-        "name": "GitHub",
-        "image": "../img/skills/github.png"
+        "name": "Git",
+        "image": "../img/skills/git.png"
       },
       {
         "name": "Heroku",
