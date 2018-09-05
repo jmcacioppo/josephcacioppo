@@ -64,3 +64,7 @@ html {
 .panel-title {
   color: #222E7A !important;
 }
+
+.box-shadow--6dp {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
+}

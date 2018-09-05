@@ -3,12 +3,31 @@
   color: #F8F8F8;
 }
 
-.skillsTable, .myLifeAccordion {
+.skillContainer,
+.myLifeAccordion {
   margin: 0 auto;
   width: 60% !important;
+}
+
+.skill {
+  background: white;
+  border: 1px solid rgb(94, 94, 94);
+  padding: 10px;
+}
+
+.skillImage {
+  height: 85px;
+  width: 85px;
 }
 
 .lifePic {
   height: 25%;
   width: 25%;
+}
+
+@media screen and (max-width: 991px) {
+  .skillImage {
+    height: 50px;
+    width: 50px;
+  }
 }
