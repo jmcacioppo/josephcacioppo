@@ -1,48 +1,42 @@
 [
   {
     "title" : "Receipt-less",
-    "description" : "Provide a financial management tool in order to reduce the user's number of printed receipts.",
-    "tools" : "HTML, CSS, Angular, MongoDB, Docker, Go",
+    "tools" : "AngularJS, MongoDB, Docker, Go",
     "image" : "../img/projects/receipt-less.png",
     "link" : "https://github.com/joeySchentrup/receipt-less",
     "showData" : false
   },
   {
     "title" : "Health Tracker",
-    "description" : "Improve healthy dietary behaviors of users.",
-    "tools" : "HTML, CSS, MEAN.JS",
+    "tools" : "MEAN.JS",
     "image" : "../img/projects/health-tracker.png",
     "link" : "https://github.com/Group7A/health-tracker",
     "showData" : false
   },
   {
     "title" : "MoneyManage.io",
-    "description" : "Act as a personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
-    "tools" : "HTML, CSS, Javascript (Aurelia)",
+    "tools" : "Aurelia",
     "image" : "../img/projects/MoneyManage.png",
     "link" : "https://github.com/jmcacioppo/MoneyManage.io",
     "showData" : false
   },
   {
     "title" : "Ask Madden Stuff",
-    "description" : "Ask legenday football coach John Madden any question and expect a response in the form of a football play",
-    "tools" : "HTML, CSS, Javascript (jQuery)",
+    "tools" : "jQuery",
     "image" : "../img/projects/askmaddenstuff.png",
     "link" : "https://github.com/jmcacioppo/askmaddenstuff",
     "showData" : false
   },
   {
     "title" : "Dandelion",
-    "description" : "Play a game to fill up board with dandelions using arrow keys",
-    "tools" : "HTML, CSS, Javascript",
+    "tools" : "jQuery",
     "image" : "../img/projects/dandelion.png",
     "link" : "https://github.com/jmcacioppo/petaltothemetal",
     "showData" : false
   },
   {
     "title" : "Pic-A-Pun",
-    "description" : "Input an image URL, and the output is a pun based on that input",
-    "tools" : "HTML, CSS, Javascript, Python",
+    "tools" : "Javascript, Python",
     "image" : "../img/projects/pic-a-pun.png",
     "link" : "https://github.com/jmcacioppo/PicAPun.github.io",
     "showData" : false

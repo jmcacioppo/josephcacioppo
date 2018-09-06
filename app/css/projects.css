@@ -1,51 +1,104 @@
 .projectInfoContainer {
-  height: 250px;
-  margin: 0;
   margin-bottom: 15px;
-  padding: 0 !important;
-  width: 350px;
 }
 
-.projectInfo {
-  background-color: #fff4f5;
-  padding: 4% 2% !important;
-}
-
-.projectInfoLink {
+.projectTitle {
   color: #222E7A;
+  margin: 0;
 }
 
-.projectInfoLink:hover {
-  color: #222E7A;
+.projectTools {
+  color: #FA4349;
+  margin: 0;
+}
+
+.projectRepoButton {
+  background: #222E7A;
+}
+
+.projectRepoButtonText,
+.projectRepoButtonText:hover {
+  color: white;
   text-decoration: none;
 }
 
-.projectImage {
-  opacity: 1;
+.projectImage,
+.projectTextContainer {
+  height: 225px;
+  width: 300px;
 }
 
-.projectImage:hover {
-  opacity: 0.7;
+.projectTextContainer {
+  margin: 0 auto;
+  display: table;
+}
+
+.projectText {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 1199px) {
-  .projectInfoContainer,
-  .projectImage {
-    height: 225px;
+  .projectImage,
+  .projectTextContainer {
     width: 300px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  .projectInfoContainer,
-  .projectImage {
-    height: 400px;
-    width: 600px;
+  .projectImage,
+  .projectTextContainer {
+    height: 300px;
+    width: 550px;
   }
-  .projectInfo {
-    font-size: 70%;
-    height: 50px;
-    vertical-align: top !important;
-    width: 90%;
+}
+
+div.slide-left,
+div.slide-right {
+  overflow: hidden;
+  width: 100%;
+}
+
+div.slide-left h3,
+div.slide-left h4 {
+  animation: slide-left 1s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+div.slide-right button,
+div.slide-right button a.projectRepoButtonText {
+  animation: slide-right 1s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.projectImage.ng-leave {
+  transition: opacity ease-in-out 1s;
+}
+
+.projectImage.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+.projectImage.ng-leave {
+  opacity: 1;
 }

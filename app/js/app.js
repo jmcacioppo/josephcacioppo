@@ -1,6 +1,6 @@
 'use strict';
 
-var josephcacioppo = angular.module('josephcacioppo', ['ngRoute'])
+var josephcacioppo = angular.module('josephcacioppo', ['ngRoute', 'ngAnimate'])
   .config(function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
