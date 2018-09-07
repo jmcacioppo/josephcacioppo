@@ -16,11 +16,15 @@
   background: #222E7A;
 }
 
-.projectRepoButtonText,
+.projectRepoButtonText {
+  color: #FA4349;
+  text-decoration: none;
+}
+
 .projectRepoButtonText:hover {
   color: white;
   text-decoration: none;
-}
+} 
 
 .projectImage,
 .projectTextContainer {
@@ -38,6 +42,8 @@
   vertical-align: middle;
 }
 
+/* Responsive */
+
 @media screen and (max-width: 1199px) {
   .projectImage,
   .projectTextContainer {
@@ -53,16 +59,7 @@
   }
 }
 
-div.slide-left,
-div.slide-right {
-  overflow: hidden;
-  width: 100%;
-}
-
-div.slide-left h3,
-div.slide-left h4 {
-  animation: slide-left 1s;
-}
+/* Slide Animations */
 
 @keyframes slide-left {
   from {
@@ -73,11 +70,6 @@ div.slide-left h4 {
     margin-left: 0%;
     width: 100%;
   }
-}
-
-div.slide-right button,
-div.slide-right button a.projectRepoButtonText {
-  animation: slide-right 1s;
 }
 
 @keyframes slide-right {
@@ -91,14 +83,51 @@ div.slide-right button a.projectRepoButtonText {
   }
 }
 
+/* Enter animations */
+
+.projectImage.ng-enter {
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.projectImage.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+div.slide-left,
+div.slide-right {
+  overflow: hidden;
+  width: 100%;
+}
+
+div.slide-left h3,
+div.slide-left h4 {
+  animation: slide-left 1s;
+}
+
+div.slide-right div,
+div.slide-right div a.projectRepoButtonText {
+  animation: slide-right 1s;
+}
+
+.repoLinkContainer {
+  margin: 0 auto;
+  transition: border-width 0.5s linear;
+  padding: 8px;
+  width: 50%;
+}
+
+.repoLinkContainer:hover {
+  background: #FA4349;
+}
+
+/* Exit animations */
+
 .projectImage.ng-leave {
-  transition: opacity ease-in-out 1s;
+  opacity: 1;
+  transition: opacity ease-in-out 0.5s;
 }
 
 .projectImage.ng-leave.ng-leave-active {
   opacity: 0;
-}
-
-.projectImage.ng-leave {
-  opacity: 1;
 }
