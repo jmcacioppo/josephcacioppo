@@ -8,7 +8,7 @@ josephcacioppo.controller('ProjectsController', function($scope, $http, $timeout
 
     $timeout(function () {
       project.showData = true;
-    }, 550);
+    }, 499);
   };
   
   $scope.mouseIsGone = function(project) {

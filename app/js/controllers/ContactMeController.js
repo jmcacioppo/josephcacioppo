@@ -1,4 +1,12 @@
 josephcacioppo.controller('ContactMeController', function($scope) {
-  $scope.phone = "(305) 794-7034";
-  $scope.email = "jmcacioppo0531@gmail.com";
+  $scope.name = '';
+  $scope.email = '';
+  $scope.message = '';
+  
+  $scope.submitForm = function(){ 
+    console.log($scope.name);
+    console.log($scope.email);
+    console.log($scope.message);
+  }
+
 });
