@@ -1,0 +1,31 @@
+.AboutMeContainer {
+  height: 450px;
+}
+
+.aboutMeList {
+  margin-top: 75px;
+  text-align: left;
+}
+
+.aboutMeItem {
+  display: inline-flex;
+}
+
+.checkmarkIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.indent {
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .AboutMeContainer {
+    height: 650px;
+  }
+  .aboutMeList {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

@@ -34,13 +34,18 @@ html {
 }
 
 .mainContent {
-  background-color: rgb(243, 243, 243);
   margin-bottom: -40px;
   margin-top: -20px;
 }
 
-.verticalSpacing {
-  line-height: 150px;
+.oddSectionBackground {
+  background-color: rgb(243, 243, 243);
+  margin-bottom: -20px;
+}
+
+.evenSectionBackground {
+  background-color: rgb(212, 211, 211);
+  margin-bottom: -20px;
 }
 
 .centerText {
@@ -61,14 +66,6 @@ html {
   background-color: #222E7A;
 }
 
-.panel-title {
-  color: #222E7A !important;
-}
-
 .box-shadow--6dp {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
-}
-
-.evenSectionBackground {
-  background-color: rgb(212, 211, 211);
 }

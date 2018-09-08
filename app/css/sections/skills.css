@@ -3,8 +3,7 @@
   color: #F8F8F8;
 }
 
-.skillContainer,
-.myLifeAccordion {
+.skillContainer {
   margin: 0 auto;
   width: 60% !important;
 }
@@ -18,11 +17,6 @@
 .skillImage {
   height: 85px;
   width: 85px;
-}
-
-.lifePic {
-  height: 25%;
-  width: 25%;
 }
 
 @media screen and (max-width: 991px) {

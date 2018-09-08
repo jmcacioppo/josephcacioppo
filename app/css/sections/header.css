@@ -11,7 +11,8 @@
   width: 120px;
 }
 
-#headerTitle, #headerSubTitle {
+#headerTitle,
+#headerSubTitle {
   color: #F8F8F8;
 }
 
@@ -21,4 +22,8 @@
 
 #headerSubTitle {
   font-size: 2em;
+}
+
+.verticalSpacing {
+  line-height: 150px;
 }
