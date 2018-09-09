@@ -13,7 +13,10 @@ josephcacioppo.controller('ProjectsController', function($scope, $http, $timeout
   
   $scope.mouseIsGone = function(project) {
     project.showData = false;
-    project.showImage = true;
+
+    $timeout(function () {
+      project.showImage = true;
+    }, 499);
   };
   
 });

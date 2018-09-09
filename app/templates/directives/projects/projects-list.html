@@ -1,11 +1,11 @@
 <div class="container">
   <div ng-repeat="project in projects" ng-class="($index % 3 === 2) ? 'row' : ''">
 
-    <div class="projectInfoContainer col-md-4">
+    <div class="projectInfoContainer col-md-4" ng-mouseover="mouseIsOver(project)" ng-mouseleave="mouseIsGone(project)">
     
-      <img ng-if="project.showImage" class="projectImage" ng-mouseover="mouseIsOver(project)" src="{{project.image}}">
+      <img ng-if="project.showImage" class="projectImage" src="{{project.image}}">
       
-      <div ng-if="project.showData" class="projectTextContainer" ng-mouseleave="mouseIsGone(project)">
+      <div ng-if="project.showData" class="projectTextContainer">
         <div class="projectText slide-left slide-right">
           <h3 class="projectTitle"><b>{{project.title}}</b></h3>
   

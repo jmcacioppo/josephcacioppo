@@ -1,5 +1,5 @@
-.projectInfoContainer {
-  margin-bottom: 15px;
+.projectsSection {
+  height: 700px;
 }
 
 .projectTitle {
@@ -20,12 +20,13 @@
 .projectRepoButtonText:hover {
   color: white;
   text-decoration: none;
-} 
+}
 
 .projectImage,
-.projectTextContainer {
-  height: 225px;
-  width: 300px;
+.projectTextContainer,
+.projectInfoContainer {
+  height: 300px;
+  width: 375px;
 }
 
 .projectTextContainer {
@@ -41,16 +42,26 @@
 /* Responsive */
 
 @media screen and (max-width: 1199px) {
+  .projectsSection {
+    height: 600px;
+  }
   .projectImage,
-  .projectTextContainer {
+  .projectTextContainer,
+  .projectInfoContainer {
+    height: 250px;
     width: 300px;
   }
 }
 
 @media screen and (max-width: 991px) {
+  .projectsSection {
+    height: 1900px;
+  }
   .projectImage,
-  .projectTextContainer {
+  .projectTextContainer,
+  .projectInfoContainer {
+    margin: 0 auto;
     height: 300px;
-    width: 550px;
+    width: 500px;
   }
 }

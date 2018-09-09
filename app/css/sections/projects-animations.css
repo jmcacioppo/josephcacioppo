@@ -26,7 +26,7 @@
 
 .projectImage.ng-enter {
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.2s;
 }
 
 .projectImage.ng-enter.ng-enter-active {
