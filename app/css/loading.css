@@ -19,8 +19,6 @@ div.m-app-loading div.animated-container.ng-leave {
   -webkit-transition: all linear 200ms;
 }
 
-/* Used to set the end properties of the ng-leave animation state. */
-
 div.m-app-loading div.animated-container.ng-leave-active {
   opacity: 0;
 }
@@ -47,6 +45,6 @@ div.m-app-loading p {
   margin: 0px 0px 0px 0px;
 }
 
-.hideFooter {
+.hideDuringLoad {
   display: none;
 }

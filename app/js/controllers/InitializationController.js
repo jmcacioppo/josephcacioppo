@@ -8,9 +8,9 @@ josephcacioppo.controller('InitializationController', function ($scope, Util) {
     headerBackground = document.getElementById('headerBackground');
     headerTitle = document.getElementById('headerTitle');
 
-    headerBackground.classList.remove('hideFooter');
-    footer.classList.remove('hideFooter');
-
+    headerBackground.classList.remove('hideDuringLoad');
+    footer.classList.remove('hideDuringLoad');
+    
     configureWindowSize();
     setResize();
   }, 0);

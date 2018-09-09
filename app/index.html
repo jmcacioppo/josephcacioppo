@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="/css/sections/header.css">
     <link rel="stylesheet" href="/css/sections/projects.css">
     <link rel="stylesheet" href="/css/sections/projects-animations.css">
-    <link rel="stylesheet" href="/css/sections/resume.css">
     <link rel="stylesheet" href="/css/sections/skills.css">
 
     <base href="/">
@@ -47,8 +46,7 @@
     
     <div id="app">
       <div id="content">
-        <!-- <header></header> -->
-        <section class="hideFooter" id="headerBackground">
+        <section class="hideDuringLoad" id="headerBackground">
           <img id="logo" src="/img/logo/SiteLogo.png" alt="Cacioppo Logo">
         
           <a href="https://www.linkedin.com/in/joseph-cacioppo-a05355135/" target="_blank">
@@ -72,7 +70,7 @@
         <ng-view></ng-view>
       </div>
 
-      <footer class="hideFooter" id="footer">
+      <footer class="hideDuringLoad" id="footer">
         <div class="footer-copyright">
           <div class="container-fluid"> <br>
             &copy Joseph Cacioppo 
@@ -89,24 +87,19 @@
     
     <script src="/js/app.js"></script>
 
-    <script src="/js/controllers/InitializationController.js"></script>
-    <script src="/js/controllers/NavController.js"></script>
-    <script src="/js/controllers/MainController.js"></script>
-    <script src="/js/controllers/SkillsController.js"></script>
-    <script src="/js/controllers/ProjectsController.js"></script>
     <script src="/js/controllers/ContactMeController.js"></script>
+    <script src="/js/controllers/InitializationController.js"></script>
+    <script src="/js/controllers/MainController.js"></script>
+    <script src="/js/controllers/NavController.js"></script>
+    <script src="/js/controllers/ProjectsController.js"></script>
+    <script src="/js/controllers/SkillsController.js"></script>
     
     <script src="/js/directives/about-me/about-me.js"></script>
-    <script src="/js/directives/about-me/resume.js"></script>
-    
-    <script src="/js/directives/skills/skills.js"></script>
-    
     <script src="/js/directives/contact-me/contact-me.js"></script>
-    
     <script src="/js/directives/header/header.js"></script>
-    
     <script src="/js/directives/projects/projects.js"></script>
     <script src="/js/directives/projects/projects-list.js"></script>
+    <script src="/js/directives/skills/skills.js"></script>
 
     <script src="/js/factory/debounce.js"></script>
 
