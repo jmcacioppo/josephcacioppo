@@ -4,7 +4,7 @@ josephcacioppo.controller('ProjectsController', function($scope, $http, $timeout
     .then((response) => $scope.projects = response.data);
 
   $scope.mouseIsOver = function(project) {
-    project.hideImage = true;
+    project.showImage = false;
 
     $timeout(function () {
       project.showData = true;
@@ -13,7 +13,7 @@ josephcacioppo.controller('ProjectsController', function($scope, $http, $timeout
   
   $scope.mouseIsGone = function(project) {
     project.showData = false;
-    project.hideImage = false;
+    project.showImage = true;
   };
   
 });

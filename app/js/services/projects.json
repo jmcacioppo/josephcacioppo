@@ -4,7 +4,7 @@
     "tools" : "AngularJS, MongoDB, Docker, Go",
     "image" : "../img/projects/receipt-less.png",
     "link" : "https://github.com/joeySchentrup/receipt-less",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   },
   {
@@ -12,7 +12,7 @@
     "tools" : "MEAN.JS",
     "image" : "../img/projects/health-tracker.png",
     "link" : "https://github.com/Group7A/health-tracker",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   },
   {
@@ -20,7 +20,7 @@
     "tools" : "Aurelia",
     "image" : "../img/projects/MoneyManage.png",
     "link" : "https://github.com/jmcacioppo/MoneyManage.io",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   },
   {
@@ -28,7 +28,7 @@
     "tools" : "jQuery",
     "image" : "../img/projects/askmaddenstuff.png",
     "link" : "https://github.com/jmcacioppo/askmaddenstuff",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   },
   {
@@ -36,7 +36,7 @@
     "tools" : "jQuery",
     "image" : "../img/projects/dandelion.png",
     "link" : "https://github.com/jmcacioppo/petaltothemetal",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   },
   {
@@ -44,7 +44,7 @@
     "tools" : "Javascript, Python",
     "image" : "../img/projects/pic-a-pun.png",
     "link" : "https://github.com/jmcacioppo/PicAPun.github.io",
-    "hideImage": false,
+    "showImage": true,
     "showData" : false
   }
 ]

@@ -3,7 +3,7 @@
 
     <div class="projectInfoContainer col-md-4">
     
-      <img ng-if="!project.hideImage" class="projectImage" ng-mouseover="mouseIsOver(project)" src="{{project.image}}">
+      <img ng-if="project.showImage" class="projectImage" ng-mouseover="mouseIsOver(project)" src="{{project.image}}">
       
       <div ng-if="project.showData" class="projectTextContainer" ng-mouseleave="mouseIsGone(project)">
         <div class="projectText slide-left slide-right">
