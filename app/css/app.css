@@ -62,8 +62,10 @@ html {
   width: 60%;
 }
 
-.btn {
+.btn,
+.btn:hover {
   background-color: #222E7A;
+  color: white !important;
 }
 
 .box-shadow--6dp {
