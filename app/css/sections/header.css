@@ -5,10 +5,16 @@
   background-size: cover;
 }
 
-#logo {
+.myLogo {
   height: 85px;
   margin-left: 15px;
   width: 120px;
+}
+
+.socialLogo {
+  float: right; 
+  margin-right:1%;
+  margin-top: 2%; 
 }
 
 #headerTitle,
