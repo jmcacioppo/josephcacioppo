@@ -13,32 +13,25 @@ var josephcacioppo = angular.module('josephcacioppo', ['ngRoute', 'ngAnimate'])
     $locationProvider.html5Mode(true);    
   });
 
-josephcacioppo.controller('InitializationController', function($scope, $window, Util) {
-  let headerBackground = '';
-  let headerTitle = '';
-
-  // window.addEventListener('load', function () {
-  window.onload = function () {
-    setTimeout(function() {
-      headerBackground = document.getElementById('headerBackground');
-      headerTitle = document.getElementById('headerTitle');
-  
-      configureWindowSize();
-      setResize();
-    }, 0)
-  };
-  
-  function configureWindowSize() {
-    headerBackground.style.height = `${window.innerHeight}px`;
-    headerTitle.style.marginTop = `${window.innerHeight * .20}px`;
+josephcacioppo.directive("mAppLoading", function ($animate) {
+    return ({
+      link: link,
+      restrict: "C"
+    });
+    
+    function link(scope, element, attributes) {
+      $animate.leave(element.children().eq(1)).then(
+        function cleanupAfterAnimation() {
+          
+          element.remove();
+          scope = element = attributes = null;
+          
+        }
+      );
+    }
   }
+);
 
-  function setResize() {
-    var resizeWindow = Util.debounce(function () {
-      headerBackground.style.height = `${window.innerHeight}px`;
-      headerTitle.style.marginTop = `${window.innerHeight * .20}px`;
-    }, 20);
-
-    window.addEventListener("resize", resizeWindow);    
-  }
-});
+setTimeout(function asyncBootstrap() {
+  angular.bootstrap(document, ["josephcacioppo"]);
+}, 2000);

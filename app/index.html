@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="josephcacioppo">
+<html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111742262-1"></script>
@@ -16,6 +16,7 @@
     
     <link rel="icon" sizes="16x16" href="img/logo/favicon-16x16.png">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/loading.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sections/about-me.css">
@@ -30,13 +31,48 @@
   </head>
 
   <body ng-controller="InitializationController">
+    
+    <div class="m-app-loading" ng-animate-children>
+      <div class="animated-container">
+        <div class="welcomeMessage">
+          <h1>
+            Welcome!
+          </h1>
+          <p>
+            I wish I had something interesting to share with you while you wait.
+          </p>
+        </div>
+      </div>
+    </div>
+    
     <div id="app">
       <div id="content">
-        <header></header>
+        <!-- <header></header> -->
+        <section class="hideFooter" id="headerBackground">
+          <img id="logo" src="/img/logo/SiteLogo.png" alt="Cacioppo Logo">
+        
+          <a href="https://www.linkedin.com/in/joseph-cacioppo-a05355135/" target="_blank">
+            <img style="float: right; margin-top: 2%; margin-right:1%;" src="/img/logo/In-White-34px-R.png" alt="LinkedIn Logo" />
+          </a>
+        
+          <a href="https://github.com/jmcacioppo" target="_blank">
+            <img style="float: right; margin-top: 2%; margin-right:1%;" src="/img/logo/GitHub-Mark-Light-32px.png" alt="Github Logo"
+            />
+          </a>
+        
+          <span class="verticalSpacing"></span>
+        
+          <div class="centerText">
+            <h1 id="headerTitle"><b>Joseph Cacioppo</b></h1>
+            <h2 id="headerSubTitle"><b>Software Developer</b></h2>
+          </div>
+        
+        </section>
+
         <ng-view></ng-view>
       </div>
 
-      <footer id="footer">
+      <footer class="hideFooter" id="footer">
         <div class="footer-copyright">
           <div class="container-fluid"> <br>
             &copy Joseph Cacioppo 
@@ -53,6 +89,7 @@
     
     <script src="/js/app.js"></script>
 
+    <script src="/js/controllers/InitializationController.js"></script>
     <script src="/js/controllers/NavController.js"></script>
     <script src="/js/controllers/MainController.js"></script>
     <script src="/js/controllers/SkillsController.js"></script>
