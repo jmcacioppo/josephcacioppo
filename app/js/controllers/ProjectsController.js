@@ -1,22 +1,20 @@
 josephcacioppo.controller('ProjectsController', function($scope, $http, $timeout) {
   
   $http.get('../js/services/projects.json')
-    .then((response) => $scope.projects = response.data);
-
+  .then((response) => $scope.projects = response.data);
+  
   $scope.mouseIsOver = function(project) {
     project.showImage = false;
-
-    $timeout(function () {
-      project.showData = true;
-    }, 499);
+    project.showData = true;
   };
   
   $scope.mouseIsGone = function(project) {
     project.showData = false;
+    project.showImage = true;
+  };
 
-    $timeout(function () {
-      project.showImage = true;
-    }, 499);
+  $scope.goToLink = function(project) {
+    window.open(project.link, '_blank');
   };
   
 });

@@ -13,7 +13,7 @@
 
 @keyframes slide-right {
   from {
-    margin-left: -100%;
+    margin-left: -300%;
     width: 300%;
   }
   to {
@@ -22,51 +22,34 @@
   }
 }
 
-/* Enter animations */
+/* Animation Implementations */
 
-.projectImage.ng-enter {
+.exitImage {
   opacity: 0;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.5s;
 }
 
-.projectImage.ng-enter.ng-enter-active {
+.projectImage {
   opacity: 1;
 }
 
-div.slide-left,
-div.slide-right {
+.enterText {
+  z-index: 1;
+}
+
+.exitText {
+  z-index: -1;
+}
+
+.slide {
   overflow: hidden;
   width: 100%;
 }
 
-div.slide-left h3,
-div.slide-left h4 {
-  animation: slide-left 1s;
+div.slide h3.enterHeader {
+  animation: slide-left 1.0s;
 }
 
-div.slide-right div,
-div.slide-right div a.projectRepoButtonText {
-  animation: slide-right 1s;
-}
-
-.repoLinkContainer {
-  margin: 0 auto;
-  transition: border-width 0.5s linear;
-  padding: 8px;
-  width: 50%;
-}
-
-.repoLinkContainer:hover {
-  background: #FA4349;
-}
-
-/* Exit animations */
-
-.projectImage.ng-leave {
-  opacity: 1;
-  transition: opacity ease-in-out 0.5s;
-}
-
-.projectImage.ng-leave.ng-leave-active {
-  opacity: 0;
+div.slide h4.enterSubHeader {
+  animation: slide-right 1.0s;
 }
