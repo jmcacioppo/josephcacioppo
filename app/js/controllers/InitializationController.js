@@ -1,4 +1,4 @@
-josephcacioppo.controller('InitializationController', function ($scope, Util) {
+josephcacioppo.controller('InitializationController', function (Util) {
   let footer = '';
   let headerBackground = '';
   let headerTitle = '';

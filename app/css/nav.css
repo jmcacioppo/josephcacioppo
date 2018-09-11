@@ -1,34 +1,26 @@
-.nav-container {
+.navContainer {
   background-color: #FA4349;
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  margin-bottom: -20px;
 }
 
-.nav-header {
-  background-color: #FA4349;
-  display: inline-block;
-  list-style-type: none;
-  margin-bottom: 0px;
-  margin-top: 5px;
-  overflow: hidden;
-  padding: 0;
+.navItem {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
 }
 
-.nav-items {
-  float: left;
-}
-
-.nav-items a {
+.navItem div {
   color: #F8F8F8;
-  display: block;
-  padding: 14px 16px;
-  text-align: center;
-  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.nav-items a:hover,
 .activeOption {
-  background-color: #FDAFB2;
+  background-color: rgb(255, 146, 150);
   color: #222E7A;
   text-decoration: none;
 }
