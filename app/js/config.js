@@ -1,1 +1,1 @@
-josephcacioppo.constant('EMAILJSID', process.env.EMAILJSID);
+josephcacioppo.constant('EMAILJSID', 'user_CKHzl5YiI197deUpppFow');
