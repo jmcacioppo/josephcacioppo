@@ -1,1 +1,1 @@
-josephcacioppo.constant('EMAILJSID', process.env.EMAILJSID);
+josephcacioppo.constant('EMAILJSID', '');
