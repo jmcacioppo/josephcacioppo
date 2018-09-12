@@ -30,7 +30,10 @@ josephcacioppo.controller('NavController', function($scope, $location, $window) 
   }, 0);
 
   $scope.scrollToPosition = (position) => {
-    $window.scrollTo(0, position);
+    window.scrollTo({
+      top: position,
+      behavior: "smooth"
+    });
   }
 
   $scope.checkActive = function (option) {
