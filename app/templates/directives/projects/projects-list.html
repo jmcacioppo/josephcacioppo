@@ -3,7 +3,7 @@
         ng-mouseover="mouseIsOver(project)" ng-mouseleave="mouseIsGone(project)">
     
       <div class="projectImageContainer" ng-class="project.showImage ? 'projectImage' : 'exitImage'">
-        <img class="projectImageDimensions" src="{{project.image}}" alt="{{project.title}}">
+        <img class="projectImageDimensions" ng-src="{{project.image}}" alt="{{project.title}}">
       </div>
       
       <div class="projectTextContainer" ng-class="project.showData ? 'enterText' : 'exitText'">
