@@ -1,3 +1,3 @@
-# Website link: http://josephcacioppo.com
+# Website link: https://josephcacioppo.com
 
-![home-page](https://github.com/jmcacioppo/josephcacioppo/blob/master/app/img/projects/josephcacioppo.png)
+![home-page](https://user-images.githubusercontent.com/14670479/45424543-d321e980-b664-11e8-9206-184fc9458c5f.png)
