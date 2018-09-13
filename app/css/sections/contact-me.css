@@ -3,3 +3,11 @@
   padding: 15px;
   width: 40%;
 }
+
+.submitButton,
+.submitButton:hover {
+  background-color: #222E7A;
+  border-radius: 5px;
+  color: #F8F8F8;
+  padding: 10px;
+}
