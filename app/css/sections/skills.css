@@ -1,27 +1,23 @@
-.table-header-colors {
-  background-color: #222E7A;
-  color: #F8F8F8;
-}
-
-.skillContainer {
+.skillsContainer {
   margin: 0 auto;
   width: 60% !important;
 }
 
-.skill {
+.skillsItem {
   background: white;
   border: 1px solid rgb(94, 94, 94);
   padding: 10px;
+  margin-bottom: 20px;
 }
 
-.skillImage {
+.skillsImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillsImage {
   height: 90px;
+  margin: 0px 10px;
   width: 90px;
-}
-
-@media screen and (max-width: 1199px) {
-  .skillImage{
-    height: 70px;
-    width: 70px;
-  }
 }
