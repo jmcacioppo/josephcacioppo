@@ -2,30 +2,27 @@
   
   <h1 class="sectionTitle">Skills</h1>
 
-  <div class="skillContainer" ng-repeat="skill in skills">
+  <div class="skillsContainer" ng-repeat="skill in skills">
     
-    <div class="skill box-shadow--6dp">
+    <div class="skillsItem box-shadow--6dp">
 
       <h4>{{skill.title}}</h4>
 
       <hr>
 
-      <div class="row">
-        <div class="col-md-2" ng-repeat="framework in skill.frameworks">
-          <img class="skillImage" ng-src="{{framework.image}}" alt="{{framework.name}}">
-          
-          <br>
-          
-          {{framework.name}}
+      <div class="skillsImagesContainer">
+        <div ng-repeat="framework in skill.frameworks">
 
-          <br> <br>
+          <img class="skillsImage" ng-src="{{framework.image}}" alt="{{framework.name}}">
+          <p>{{framework.name}}</p>
+
         </div>
       </div>
 
     </div>
 
-    <br>
-
   </div>
+
+  <br>
 
 </section>

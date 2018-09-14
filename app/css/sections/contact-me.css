@@ -1,5 +1,90 @@
 .contactInfoContainer {
   margin: 0 auto;
   padding: 15px;
-  width: 40%;
+  width: 55%;
+}
+
+.contactMeInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submitButton,
+.submitButton:hover {
+  background-color: #222E7A;
+  border-radius: 5px;
+  color: #F8F8F8;
+  padding: 10px;
+}
+
+@media screen and (max-width: 699px) {
+  .contactInfoContainer {
+    width: 75%;
+  }
+}
+
+.inner {
+  color: #3c763d;
+  display: block;
+  padding: 6px;
+  margin: 6px;
+  border: 1px solid transparent;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  border-radius: 4px;
+}
+
+.close {
+  float: right;
+  margin: 3px 12px 0px 0px;
+  cursor: pointer;
+}
+
+.messageSentAlert input {
+  display: none;
+}
+
+.messageSentAlert input:checked~* {
+  animation-name: dismiss;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 100ms;
+}
+/* 
+.messageSentAlert {
+  animation-name: come;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 100ms;
+} */
+
+@keyframes dismiss {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    font-size: 0.1px;
+    transform: scale(0);
+  }
+}
+
+@keyframes come {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+    /* font-size: 0.1px;
+    transform: scale(0); */
+  }
 }
