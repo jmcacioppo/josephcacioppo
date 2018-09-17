@@ -1,12 +1,12 @@
 {
   "name": "josephcacioppo",
-  "version": "1.0.1",
-  "description": "This is the personal website for Joseph Cacioppo, a software developer.",
+  "version": "2.0.1",
+  "description": "Personal website for Joseph Cacioppo, a frontend software developer for PIEtech.",
   "main": "index.js",
   "author": "Joseph Cacioppo",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "express": "4.13.0",
+    "express": "^4.16.3",
     "jquery": "^3.2.1"
   }
 }
