@@ -1,8 +1,11 @@
 josephcacioppo.controller('ProjectsController', function($scope, $http) {
+  getProjects();
   
-  $http.get('../js/services/projects.json')
-    .then((response) => $scope.projects = response.data);
-  
+  async function getProjects() {
+    await $http.get('../js/services/projects.json', { cache: true })
+      .then((response) => $scope.projects = response.data);
+  }
+
   $scope.mouseIsOver = function(project) {
     project.showImage = false;
     project.showData = true;
