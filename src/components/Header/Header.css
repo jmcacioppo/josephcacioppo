@@ -1,0 +1,37 @@
+.Header {
+  background: url("../../img/background/blueBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  height: 100vh;
+}
+
+.JCLogo {
+  height: 85px;
+  margin-left: 15px;
+  width: 120px;
+}
+
+.SocialLogo {
+  float: right;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+
+.HeaderTitle,
+.HeaderSubTitle {
+  color: #f8f8f8;
+}
+
+.HeaderTitle {
+  font-size: 4em;
+}
+
+.HeaderSubTitle {
+  font-size: 2em;
+}
+
+.VerticalSpacing {
+  line-height: 150px;
+}
