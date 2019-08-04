@@ -22,14 +22,8 @@ html {
   padding-bottom: 60px;
 }
 
-#content {
-  color: #353839;
-  padding-bottom: 100px;
-}
-
-.mainContent {
-  margin-bottom: -40px;
-  margin-top: -20px;
+.CenterText {
+  text-align: center;
 }
 
 .oddSectionBackground {
@@ -40,10 +34,6 @@ html {
 .evenSectionBackground {
   background-color: rgb(212, 211, 211);
   margin-bottom: -20px;
-}
-
-.CenterText {
-  text-align: center;
 }
 
 .sectionTitle {
