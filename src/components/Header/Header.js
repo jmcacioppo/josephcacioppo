@@ -37,13 +37,9 @@ const Header = () => (
       </div>
     </div>
 
-    <div className="HeaderTextContainer CenterText FlexContainer FlexColumn JustifyContentCenter">
-      <h1 className="HeaderTitle">
-        <b>Joseph Cacioppo</b>
-      </h1>
-      <h2 className="HeaderSubTitle">
-        <b>Software Developer</b>
-      </h2>
+    <div className="HeaderTextContainer FlexContainer FlexColumn JustifyContentCenter">
+      <h1 className="HeaderTitle">Joseph Cacioppo</h1>
+      <h2 className="HeaderSubTitle">Web Developer</h2>
     </div>
   </header>
 );
