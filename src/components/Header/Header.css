@@ -7,6 +7,10 @@
   height: 100vh;
 }
 
+.HeaderTextContainer {
+  flex-grow: 1;
+}
+
 .JCLogo {
   height: 85px;
   margin-left: 15px;
@@ -14,14 +18,14 @@
 }
 
 .SocialLogo {
-  float: right;
-  margin-right: 1%;
-  margin-top: 2%;
+  padding: 5px;
 }
 
 .HeaderTitle,
 .HeaderSubTitle {
   color: #f8f8f8;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .HeaderTitle {
