@@ -1,16 +1,10 @@
 .Header {
-  background: url("../../img/background/blueBackground.jpg");
+  background: url("../images/blueBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
   height: 100vh;
-}
-
-.JCLogo {
-  height: 90px;
-  padding: 15px;
-  width: 120px;
 }
 
 .SocialLogo {
