@@ -3,15 +3,12 @@
 }
 
 .NavContainer > a {
-  color: white;
+  color: #f8f8f8;
   font-size: 30px;
   padding: 10px;
   text-decoration: none;
 }
 
-.SocialMediaLink {
-  background-color: red;
-  border: 1px solid;
-  color: white;
-  padding: 5px;
+.NavContainer > a:hover {
+  border-bottom: 3px solid #fa4349;
 }

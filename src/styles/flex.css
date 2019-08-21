@@ -1,0 +1,19 @@
+.AlignItemsCenter {
+  align-items: center;
+}
+
+.FlexColumn {
+  flex-direction: column;
+}
+
+.FlexContainer {
+  display: flex;
+}
+
+.JustifyContentCenter {
+  justify-content: center;
+}
+
+.JustifyContentSpaceBetween {
+  justify-content: space-between;
+}

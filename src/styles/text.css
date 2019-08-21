@@ -1,0 +1,22 @@
+.CenterText {
+  text-align: center;
+}
+
+.HeaderTextContainer {
+  flex-grow: 1;
+}
+
+.HeaderTitle,
+.HeaderSubTitle {
+  color: #f8f8f8;
+  margin: 15px;
+  text-align: center;
+}
+
+.HeaderTitle {
+  font-size: 4em;
+}
+
+.HeaderSubTitle {
+  font-size: 2em;
+}
