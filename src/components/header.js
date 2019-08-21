@@ -5,26 +5,12 @@ import React from "react"
 
 import "./header.css"
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const data = useStaticQuery(graphql`
     query {
       logo: file(relativePath: { eq: "logo/JC.png" }) {
         childImageSharp {
           fixed(width: 105, height: 90) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      github: file(relativePath: { eq: "icons/github.png" }) {
-        childImageSharp {
-          fixed(width: 30, height: 30) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      linkedin: file(relativePath: { eq: "icons/linkedin.png" }) {
-        childImageSharp {
-          fixed(width: 30, height: 30) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -35,24 +21,14 @@ const Header = ({ siteTitle }) => {
   return (
     <header className="Header FlexContainer FlexColumn">
       <div className="FlexContainer JustifyContentSpaceBetween">
-        <Img fixed={data.logo.childImageSharp.fixed} />
+        <Link to="/">
+          <Img fixed={data.logo.childImageSharp.fixed} />
+        </Link>
 
-        <div>
-          <a
-            href="https://github.com/jmcacioppo"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Img fixed={data.github.childImageSharp.fixed} />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/joseph-cacioppo-a05355135/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Img fixed={data.linkedin.childImageSharp.fixed} />
-          </a>
+        <div className="NavContainer FlexContainer AlignItemsCenter">
+          <Link to="/">About</Link>
+          <Link to="/">Projects</Link>
+          <Link to="/">Contact</Link>
         </div>
       </div>
 
@@ -61,9 +37,32 @@ const Header = ({ siteTitle }) => {
         <h2 className="HeaderSubTitle">Web Developer</h2>
       </div>
 
-      <h1 style={{ margin: 0 }}>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
+      <div className="FlexContainer JustifyContentCenter">
+        <a
+          className="SocialMediaLink"
+          href="https://github.com/jmcacioppo"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          className="SocialMediaLink"
+          href="https://www.linkedin.com/in/joseph-cacioppo-a05355135/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="SocialMediaLink"
+          href="https://www.linkedin.com/in/joseph-cacioppo-a05355135/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Something Else
+        </a>
+      </div>
     </header>
   )
 }

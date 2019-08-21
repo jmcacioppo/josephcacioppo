@@ -7,7 +7,17 @@
   height: 100vh;
 }
 
-.SocialLogo {
+.NavContainer > a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.SocialMediaLink {
+  background-color: red;
+  border: 1px solid;
+  color: white;
   padding: 5px;
 }
 
