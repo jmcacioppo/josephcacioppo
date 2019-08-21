@@ -21,6 +21,35 @@ html {
   height: 100vh;
 }
 
+.Main {
+  height: 95%;
+  overflow-y: scroll;
+}
+
+.SkillsContainer {
+  margin: 0 auto;
+  width: 60% !important;
+}
+
+.SkillsItem {
+  background: white;
+  border: 1px solid rgb(94, 94, 94);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.SkillsImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.SkillsImage {
+  height: 90px;
+  margin: 0px 10px;
+  width: 90px;
+}
+
 .box-shadow--6dp {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
 }

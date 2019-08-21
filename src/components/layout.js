@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <div className="App FlexContainer FlexColumn JustifyContentSpaceBetween">
       <Header />
-      <main>{children}</main>
+      <main className="Main">{children}</main>
       <Footer />
     </div>
   )

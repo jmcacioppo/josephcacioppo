@@ -4,11 +4,11 @@
     "frameworks": [
       {
         "name": "HTML5",
-        "image": "../images/skills/html5.png"
+        "image": "skills/html5.png"
       },
       {
         "name": "JSX",
-        "image": "../images/skills/jsx.png"
+        "image": "skills/jsx.png"
       }
     ]
   },
@@ -17,15 +17,15 @@
     "frameworks": [
       {
         "name": "Bootstrap",
-        "image": "../images/skills/bootstrap.png"
+        "image": "skills/bootstrap.png"
       },
       {
         "name": "CSS3",
-        "image": "../images/skills/css3.png"
+        "image": "skills/css3.png"
       },
       {
         "name": "Sass",
-        "image": "../images/skills/sass.png"
+        "image": "skills/sass.png"
       }
     ]
   },
@@ -34,27 +34,27 @@
     "frameworks": [
       {
         "name": "AngularJS",
-        "image": "../images/skills/angular.png"
+        "image": "skills/angular.png"
       },
       {
         "name": "Aurelia",
-        "image": "../images/skills/aurelia.png"
+        "image": "skills/aurelia.png"
       },
       {
         "name": "ES6",
-        "image": "../images/skills/es6.png"
+        "image": "skills/es6.png"
       },
       {
         "name": "Node",
-        "image": "../images/skills/node.png"
+        "image": "skills/node.png"
       },
       {
         "name": "React",
-        "image": "../images/skills/react.png"
+        "image": "skills/react.png"
       },
       {
         "name": "Typescript",
-        "image": "../images/skills/typescript.png"
+        "image": "skills/typescript.png"
       }
     ]
   },
@@ -63,15 +63,15 @@
     "frameworks": [
       {
         "name": "MongoDB",
-        "image": "../images/skills/mongodb.png"
+        "image": "skills/mongodb.png"
       },
       {
         "name": "Mongoose",
-        "image": "../images/skills/mongoose.png"
+        "image": "skills/mongoose.png"
       },
       {
         "name": "MySQL",
-        "image": "../images/skills/mysql.png"
+        "image": "skills/mysql.png"
       }
     ]
   },
@@ -80,11 +80,11 @@
     "frameworks": [
       {
         "name": "Webpack",
-        "image": "../images/skills/webpack.png"
+        "image": "skills/webpack.png"
       },
       {
         "name": "Yarn",
-        "image": "../images/skills/yarn.png"
+        "image": "skills/yarn.png"
       }
     ]
   },
@@ -93,15 +93,15 @@
     "frameworks": [
       {
         "name": "Git",
-        "image": "../images/skills/git.png"
+        "image": "skills/git.png"
       },
       {
         "name": "Heroku",
-        "image": "../images/skills/heroku.png"
+        "image": "skills/heroku.png"
       },
       {
         "name": "Netlify",
-        "image": "../images/skills/netlify.png"
+        "image": "skills/netlify.png"
       }
     ]
   }
