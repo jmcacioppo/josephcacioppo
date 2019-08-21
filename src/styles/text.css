@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.HeaderTextContainer {
-  flex-grow: 1;
-}
-
 .HeaderTitle,
 .HeaderSubTitle {
   color: #f8f8f8;
@@ -19,4 +15,12 @@
 
 .HeaderSubTitle {
   font-size: 2em;
+}
+
+.Paragraph {
+  color: #f8f8f8;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 70%;
 }

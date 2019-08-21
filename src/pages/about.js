@@ -1,14 +1,21 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <h1>Learn about me</h1>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="FlexContainer FlexColumn JustifyContentCenter">
+      <h1 className="HeaderTitle">About</h1>
+      <p className="Paragraph">
+        Hello! My name is Joseph Cacioppo, and I am a web developer living in
+        Richmond, Virginia.
+      </p>
+      <p className="Paragraph">
+        I am a graduate of the University of Florida (Go Gators), where I
+        studied Computer Science and learned to love building software.
+      </p>
+    </div>
   </Layout>
 )
 
