@@ -1,19 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>About me goes here</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="HeaderTextContainer FlexContainer FlexColumn JustifyContentCenter">
+      <h1 className="HeaderTitle">Joseph Cacioppo</h1>
+      <h2 className="HeaderSubTitle">Web Developer</h2>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

@@ -13,8 +13,16 @@ html {
 }
 
 .App {
-  min-height: 100%;
-  position: relative;
+  background: url("../images/blueBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Main {
@@ -44,6 +52,26 @@ html {
 
 .AlignItemsCenter {
   align-items: center;
+}
+
+/* TODO: Vertically center text properly */
+.HeaderTextContainer {
+  flex-grow: 1;
+}
+
+.HeaderTitle,
+.HeaderSubTitle {
+  color: #f8f8f8;
+  margin: 15px;
+  text-align: center;
+}
+
+.HeaderTitle {
+  font-size: 4em;
+}
+
+.HeaderSubTitle {
+  font-size: 2em;
 }
 
 .oddSectionBackground {
