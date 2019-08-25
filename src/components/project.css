@@ -1,0 +1,69 @@
+.ProjectInfoContainer {
+  cursor: pointer;
+  height: 250px;
+  position: relative;
+  width: 350px;
+}
+
+.ProjectImageContainer {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ProjectImageDimensions {
+  height: 100%;
+  width: 100%;
+}
+
+.ProjectTextContainer {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ProjectText {
+  display: table-cell;
+  height: 250px;
+  vertical-align: middle;
+  width: 350px;
+}
+
+.ProjectTitle {
+  color: #222e7a;
+}
+
+.ProjectTools {
+  color: #fa4349;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1050px) {
+  .ProjectsSection {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .ProjectsSection {
+    height: 1900px;
+  }
+  .ProjectInfoContainer {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .ProjectsSection {
+    height: 1900px;
+  }
+  .ProjectInfoContainer {
+    height: 300px;
+    width: 400px;
+  }
+}

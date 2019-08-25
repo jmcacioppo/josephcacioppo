@@ -1,14 +1,12 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-const Contact = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <div className="FlexContainer FlexColumn JustifyContentCenter">
-      <h1 className="HeaderTitle">Contact</h1>
-    </div>
+    <h1 className="HeaderTitle">Contact</h1>
   </Layout>
-)
+);
 
-export default Contact
+export default ContactPage;

@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="FlexContainer FlexColumn JustifyContentCenter">
+    <div
+      style={{ height: "100%" }}
+      className="FlexContainer FlexColumn JustifyContentCenter"
+    >
       <h1 className="HeaderTitle">Joseph Cacioppo</h1>
       <h2 className="HeaderSubTitle">Web Developer</h2>
     </div>
