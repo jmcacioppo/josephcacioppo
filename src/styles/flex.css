@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.FlexWrap {
+  flex-wrap: wrap;
+}
+
 .JustifyContentCenter {
   justify-content: center;
 }

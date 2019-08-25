@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import Framework from "./framework";
-import "./frameworks.css";
 
 const Frameworks = ({ frameworks }) => (
-  <div className="FrameworkImagesContainer">
+  <div className="FlexContainer FlexWrap JustifyContentCenter">
     {frameworks.map(framework => (
       <Framework
         key={framework.name}

@@ -1,9 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import "./framework.css";
 
 const Framework = ({ name, image }) => (
-  <div className="FrameworkContainer">
+  <div>
     <img
       className="FrameworkImage"
       src={require(`../../images/${image}`)}
