@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/common/seo";
+import Layout from "../components/layout/layout";
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +14,6 @@ const IndexPage = () => (
       <h2 className="HeaderSubTitle">Web Developer</h2>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

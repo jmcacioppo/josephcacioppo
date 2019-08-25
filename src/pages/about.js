@@ -1,9 +1,10 @@
 import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Skills from "../components/skills";
+
+import AboutMe from "../components/about/about-me";
+import Skills from "../components/about/skills";
+import SEO from "../components/common/seo";
+import Layout from "../components/layout/layout";
 import skills from "../data/skills.json";
-import AboutMe from "../components/about-me";
 
 const AboutPage = () => (
   <Layout>

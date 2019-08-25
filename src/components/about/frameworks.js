@@ -7,8 +7,8 @@ const Frameworks = ({ frameworks }) => (
   <div className="FrameworkImagesContainer">
     {frameworks.map(framework => (
       <Framework
-        key={framework.title}
-        title={framework.title}
+        key={framework.name}
+        name={framework.name}
         image={framework.image}
       />
     ))}

@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import "./framework.css";
 
 const Framework = ({ name, image }) => (
-  <div key={name}>
+  <div className="FrameworkContainer">
     <img
       className="FrameworkImage"
-      src={require(`../images/${image}`)}
+      src={require(`../../images/${image}`)}
       alt={name}
     />
     <p className="CenterText">{name}</p>

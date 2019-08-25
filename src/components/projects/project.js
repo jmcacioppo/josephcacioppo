@@ -7,7 +7,7 @@ const Project = ({ title, image, tools }) => (
     <div className="ProjectImageContainer">
       <img
         className="ProjectImageDimensions"
-        src={require(`../images/${image}`)}
+        src={require(`../../images/${image}`)}
         alt={title}
       />
     </div>

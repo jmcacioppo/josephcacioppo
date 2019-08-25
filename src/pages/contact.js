@@ -1,6 +1,7 @@
 import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+
+import SEO from "../components/common/seo";
+import Layout from "../components/layout/layout";
 
 const ContactPage = () => (
   <Layout>
