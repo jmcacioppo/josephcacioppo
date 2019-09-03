@@ -1,5 +1,5 @@
-import React from "react"
-import "./footer.css"
+import React from "react";
+import "./footer.css";
 
 const Footer = () => (
   <footer className="Footer FlexContainer JustifyContentCenter AlignItemsCenter">
@@ -24,13 +24,14 @@ const Footer = () => (
     {/* TODO: Get Resume downloading */}
     <a
       className="SocialMediaLink Resume"
-      target="_blank"
-      href="../images/cacioppo_resume.pdf"
       download
+      href="../images/cacioppo_resume.pdf"
+      rel="noopener noreferrer"
+      target="_blank"
     >
       Resume
     </a>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

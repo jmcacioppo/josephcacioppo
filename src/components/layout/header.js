@@ -1,9 +1,10 @@
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import React from "react"
-import "./header.css"
+import { Link, useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+import React from "react";
+import "./header.css";
 
 const Header = () => {
+  // TODO: Clean this up
   const data = useStaticQuery(graphql`
     query {
       logo: file(relativePath: { eq: "logo/JC.png" }) {
@@ -14,7 +15,7 @@ const Header = () => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <header className="Header FlexContainer FlexColumn">
@@ -30,7 +31,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

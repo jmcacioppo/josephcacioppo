@@ -9,8 +9,9 @@ const Projects = ({ projects }) => (
     {projects.map(project => (
       <Project
         key={project.title}
-        title={project.title}
         image={project.image}
+        link={project.link}
+        title={project.title}
         tools={project.tools}
       />
     ))}

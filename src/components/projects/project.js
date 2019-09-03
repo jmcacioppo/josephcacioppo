@@ -2,33 +2,40 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./project.css";
 
-const Project = ({ title, image, tools }) => (
+const Project = ({ link, image, title, tools }) => (
   <div key={title} className="ProjectInfoContainer">
-    <div className="ProjectImageContainer">
+    <a rel="noopener noreferrer" target="_blank" href={link}>
       <img
-        className="ProjectImageDimensions"
+        className="ProjectImage"
         src={require(`../../images/${image}`)}
         alt={title}
       />
-    </div>
+    </a>
 
     <div className="ProjectTextContainer">
-      <div className="slide">
-        <h3 className="ProjectTitle">
+      <div className="ProjectText">
+        <h2 className="ProjectTitle">
           <b>{title}</b>
-        </h3>
-        <h4 className="ProjectTools">
-          <b>{tools}</b>
-        </h4>
+        </h2>
+        <div className="ProjectTools">
+          <ul>
+            {tools.map(tool => (
+              <li className="ProjectTool" key={tool}>
+                {tool}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 );
 
 Project.propTypes = {
-  title: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  tools: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  tools: PropTypes.array.isRequired,
 };
 
 export default Project;

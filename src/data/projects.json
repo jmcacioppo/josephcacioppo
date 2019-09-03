@@ -1,7 +1,7 @@
 [
   {
     "title": "Receipt-less",
-    "tools": "AngularJS, MongoDB, Docker, Go",
+    "tools": ["AngularJS", "MongoDB", "Docker", "Go"],
     "image": "projects/receipt-less.png",
     "link": "https://github.com/joeySchentrup/receipt-less",
     "showImage": true,
@@ -9,7 +9,7 @@
   },
   {
     "title": "Health Tracker",
-    "tools": "MEAN.JS",
+    "tools": ["MEAN.JS"],
     "image": "projects/health-tracker.png",
     "link": "https://github.com/Group7A/health-tracker",
     "showImage": true,
@@ -17,7 +17,7 @@
   },
   {
     "title": "MoneyManage.io",
-    "tools": "Aurelia",
+    "tools": ["Aurelia"],
     "image": "projects/money-manage.png",
     "link": "https://github.com/jmcacioppo/MoneyManage.io",
     "showImage": true,
@@ -25,7 +25,7 @@
   },
   {
     "title": "Ask Madden Stuff",
-    "tools": "jQuery",
+    "tools": ["jQuery"],
     "image": "projects/askmaddenstuff.png",
     "link": "https://github.com/jmcacioppo/askmaddenstuff",
     "showImage": true,
@@ -33,7 +33,7 @@
   },
   {
     "title": "Dandelion",
-    "tools": "jQuery",
+    "tools": ["jQuery"],
     "image": "projects/dandelion.png",
     "link": "https://github.com/jmcacioppo/petaltothemetal",
     "showImage": true,
@@ -41,7 +41,7 @@
   },
   {
     "title": "Pic-A-Pun",
-    "tools": "Javascript, Python",
+    "tools": ["Javascript", "Python"],
     "image": "projects/pic-a-pun.png",
     "link": "https://github.com/jmcacioppo/PicAPun.github.io",
     "showImage": true,
