@@ -1,22 +1,22 @@
 .ProjectInfoContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 350px;
+  height: 450px;
   margin-bottom: 15px;
   width: 70%;
 }
 
 .ProjectImage {
   cursor: pointer;
-  height: 350px;
-  padding: 15px;
-  width: 550px;
+  height: 450px;
+  padding: 10px;
+  width: 650px;
 }
 
 .ProjectTextContainer {
   display: table;
   margin: auto;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -35,17 +35,53 @@
 }
 
 .ProjectTool {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
 }
 
-@media all and (max-width: 1189px) {
+@media all and (max-width: 1319px) {
+  .ProjectInfoContainer {
+    height: 700px;
+  }
+
+  .ProjectImageContainer {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 978px) {
+  .ProjectInfoContainer {
+    height: 650px;
+  }
+
+  .ProjectImageContainer,
+  .ProjectImage {
+    height: 400px;
+    width: 550px;
+  }
+}
+
+@media all and (max-width: 811px) {
   .ProjectInfoContainer {
     height: 600px;
   }
 
+  .ProjectImageContainer,
   .ProjectImage {
-    margin: 0 auto;
+    height: 350px;
+    width: 450px;
+  }
+}
+
+@media all and (max-width: 668px) {
+  .ProjectInfoContainer {
+    height: 550px;
+  }
+
+  .ProjectImageContainer,
+  .ProjectImage {
+    height: 300px;
+    width: 400px;
   }
 }

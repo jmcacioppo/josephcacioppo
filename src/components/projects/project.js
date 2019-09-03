@@ -4,7 +4,12 @@ import "./project.css";
 
 const Project = ({ link, image, title, tools }) => (
   <div key={title} className="ProjectInfoContainer">
-    <a rel="noopener noreferrer" target="_blank" href={link}>
+    <a
+      className="ProjectImageContainer"
+      rel="noopener noreferrer"
+      target="_blank"
+      href={link}
+    >
       <img
         className="ProjectImage"
         src={require(`../../images/${image}`)}
