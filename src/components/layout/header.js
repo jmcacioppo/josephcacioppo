@@ -4,7 +4,6 @@ import React from "react";
 import "./header.css";
 
 const Header = () => {
-  // TODO: Clean this up
   const data = useStaticQuery(graphql`
     query {
       logo: file(relativePath: { eq: "logo/JC.png" }) {

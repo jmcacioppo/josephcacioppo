@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../images/cacioppo_resume.pdf";
 import "./footer.css";
 
 const Footer = () => (
@@ -21,11 +22,10 @@ const Footer = () => (
       LinkedIn
     </a>
 
-    {/* TODO: Get Resume downloading */}
     <a
       className="SocialMediaLink Resume"
       download
-      href="../images/cacioppo_resume.pdf"
+      href={resume}
       rel="noopener noreferrer"
       target="_blank"
     >
