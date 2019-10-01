@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <header className="Header FlexContainer FlexColumn">
-      <div className="FlexContainer JustifyContentSpaceBetween">
+      <div className="FlexContainer FlexWrap JustifyContentSpaceBetween">
         <Link to="/">
           <Img fixed={data.logo.childImageSharp.fixed} />
         </Link>
