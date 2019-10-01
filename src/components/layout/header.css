@@ -1,0 +1,16 @@
+.Header {
+  height: 100px;
+  margin-top: 10px;
+}
+
+.NavContainer > a {
+  color: #f8f8f8;
+  font-size: 30px;
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.NavContainer > a:hover {
+  border-bottom: 3px solid #fa4349;
+}

@@ -1,0 +1,28 @@
+.Footer {
+  height: 100px;
+}
+
+.Footer > a {
+  height: 30px;
+}
+
+.SocialMediaLink {
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.GitHub {
+  background-color: #0366d6;
+}
+
+.LinkedIn {
+  background-color: #0077b5;
+}
+
+.Resume {
+  background-color: #fa4349;
+}

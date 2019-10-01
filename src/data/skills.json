@@ -1,0 +1,112 @@
+[
+  {
+    "title": "HTML",
+    "frameworks": [
+      {
+        "name": "HTML5",
+        "image": "skills/html5.png"
+      },
+      {
+        "name": "JSX",
+        "image": "skills/jsx.png"
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "frameworks": [
+      {
+        "name": "Bootstrap",
+        "image": "skills/bootstrap.png"
+      },
+      {
+        "name": "CSS3",
+        "image": "skills/css3.png"
+      },
+      {
+        "name": "Sass",
+        "image": "skills/sass.png"
+      }
+    ]
+  },
+  {
+    "title": "Javascript",
+    "frameworks": [
+      {
+        "name": "AngularJS",
+        "image": "skills/angular.png"
+      },
+      {
+        "name": "Aurelia",
+        "image": "skills/aurelia.png"
+      },
+      {
+        "name": "ES6",
+        "image": "skills/es6.png"
+      },
+      {
+        "name": "Gatsby",
+        "image": "skills/gatsby.png"
+      },
+      {
+        "name": "Node",
+        "image": "skills/node.png"
+      },
+      {
+        "name": "React",
+        "image": "skills/react.png"
+      },
+      {
+        "name": "Typescript",
+        "image": "skills/typescript.png"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "frameworks": [
+      {
+        "name": "MongoDB",
+        "image": "skills/mongodb.png"
+      },
+      {
+        "name": "Mongoose",
+        "image": "skills/mongoose.png"
+      },
+      {
+        "name": "MySQL",
+        "image": "skills/mysql.png"
+      }
+    ]
+  },
+  {
+    "title": "Build Tools",
+    "frameworks": [
+      {
+        "name": "Webpack",
+        "image": "skills/webpack.png"
+      },
+      {
+        "name": "Yarn",
+        "image": "skills/yarn.png"
+      }
+    ]
+  },
+  {
+    "title": "Other",
+    "frameworks": [
+      {
+        "name": "Git",
+        "image": "skills/git.png"
+      },
+      {
+        "name": "Heroku",
+        "image": "skills/heroku.png"
+      },
+      {
+        "name": "Netlify",
+        "image": "skills/netlify.png"
+      }
+    ]
+  }
+]

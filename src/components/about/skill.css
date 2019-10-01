@@ -1,0 +1,12 @@
+.SkillContainer {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.SkillItem {
+  background: #f8f8f8;
+  border: 1px solid rgb(94, 94, 94);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 10px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "description": "Receipt-less financial management application.",
+    "link": "https://github.com/joeySchentrup/receipt-less",
+    "show": true,
+    "title": "Receipt-less",
+    "tools": ["HTML5", "CSS3", "AngularJS", "MongoDB", "Docker", "Go"]
+  },
+  {
+    "description": "A web application to help improve healthy dietary behaviors.",
+    "link": "https://github.com/Group7A/health-tracker",
+    "show": true,
+    "title": "Health Tracker",
+    "tools": ["HTML5", "CSS3", "MongoDB", "AngularJS", "Express", "Node"]
+  },
+  {
+    "description": "Personal budget tool that generates a 5 year financial plan using data from USDA, and other countrywide datasets.",
+    "link": "https://github.com/jmcacioppo/MoneyManage.io",
+    "show": true,
+    "title": "MoneyManage.io",
+    "tools": ["HTML5", "CSS3", "Aurelia"]
+  },
+  {
+    "description": "Ask legendary football coach John Madden any question you desire, and he will give you an answer in the form of a football play.",
+    "link": "https://github.com/jmcacioppo/askmaddenstuff",
+    "show": true,
+    "title": "Ask Madden Stuff",
+    "tools": ["HTML5", "CSS3", "jQuery"]
+  },
+  {
+    "description": "Web game where the user presses arrow keys to fill a board with dandelions.",
+    "link": "https://github.com/jmcacioppo/petaltothemetal",
+    "show": true,
+    "title": "Dandelion",
+    "tools": ["HTML5", "CSS3", "jQuery"]
+  },
+  {
+    "description": "Upload an image and see a pun associated with what's in the image.",
+    "link": "https://github.com/jmcacioppo/PicAPun.github.io",
+    "show": false,
+    "title": "Pic-A-Pun",
+    "tools": ["HTML5", "CSS3", "Javascript", "Python"]
+  }
+]
