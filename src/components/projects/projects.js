@@ -6,15 +6,19 @@ import "./projects.css";
 
 const Projects = ({ projects }) => (
   <div className="ProjectListContainer">
-    {projects.map(project => (
-      <Project
-        key={project.title}
-        image={project.image}
-        link={project.link}
-        title={project.title}
-        tools={project.tools}
-      />
-    ))}
+    {projects.map(project =>
+      project.show ? (
+        <Project
+          key={project.title}
+          description={project.description}
+          link={project.link}
+          title={project.title}
+          tools={project.tools}
+        />
+      ) : (
+        ""
+      )
+    )}
   </div>
 );
 
