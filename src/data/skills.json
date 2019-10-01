@@ -45,6 +45,10 @@
         "image": "skills/es6.png"
       },
       {
+        "name": "Gatsby",
+        "image": "skills/gatsby.png"
+      },
+      {
         "name": "Node",
         "image": "skills/node.png"
       },
