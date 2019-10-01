@@ -10,7 +10,7 @@
 }
 
 .HeaderTitle {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .HeaderSubTitle {
@@ -20,7 +20,7 @@
 .Paragraph {
   color: #f8f8f8;
   font-size: 24px;
-  font-weight: bold;
+  line-height: 34px;
   margin: 10px auto;
   width: 70%;
 }
