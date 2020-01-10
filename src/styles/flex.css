@@ -18,6 +18,10 @@
   justify-content: center;
 }
 
+.JustifyContentSpaceAround {
+  justify-content: space-around;
+}
+
 .JustifyContentSpaceBetween {
   justify-content: space-between;
 }
