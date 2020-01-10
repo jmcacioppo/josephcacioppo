@@ -17,7 +17,7 @@ const Header = () => {
     }
   `);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(window && window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
