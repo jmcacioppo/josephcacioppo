@@ -17,19 +17,16 @@ const Header = () => {
     }
   `);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  let width, setWidth;
-  if (window) {
-    [width, setWidth] = useState(window.innerWidth);
-  }
+  const [width, setWidth] = useState(
+    typeof window !== `undefined` && window.innerWidth
+  );
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 550) {
         setIsNavOpen(false);
       }
-      if (window) {
-        setWidth(window.innerWidth);
-      }
+      setWidth(window.innerWidth);
     };
     window.addEventListener("resize", handleResize);
     return () => {
