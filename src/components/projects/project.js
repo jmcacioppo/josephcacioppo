@@ -16,14 +16,13 @@ const Project = ({ description, link, title, tools }) => (
     </h1>
     <div className="ProjectTools">
       <p>{description}</p>
-      <p>
-        Built with:
+      <div className="FlexContainer FlexWrap JustifyContentSpaceAround">
         {tools.map(tool => (
           <span className="ProjectTool" key={tool}>
             {tool}
           </span>
         ))}
-      </p>
+      </div>
     </div>
   </div>
 );
