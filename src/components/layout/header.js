@@ -38,7 +38,7 @@ const Header = () => {
     <header className="Header FlexContainer FlexColumn">
       <div
         className={`FlexContainer FlexWrap JustifyContentSpaceBetween ${
-          width <= 300 ? "FlexColumn AlignItemsCenter" : ""
+          width && width <= 300 ? "FlexColumn AlignItemsCenter" : ""
         }`}
       >
         <Link to="/">
@@ -46,11 +46,11 @@ const Header = () => {
         </Link>
 
         <div className="NavContainer FlexContainer AlignItemsCenter">
-          {isNavOpen || width > 550 ? (
+          {isNavOpen || (width && width > 550) ? (
             <>
               <div
                 className={
-                  width <= 550
+                  width && width <= 550
                     ? "FlexContainer FlexColumn AlignItemsCenter"
                     : ""
                 }
@@ -59,7 +59,7 @@ const Header = () => {
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </div>
-              {isNavOpen && width <= 550 ? (
+              {isNavOpen && width && width <= 550 ? (
                 <GiCancel
                   onClick={() => setIsNavOpen(false)}
                   className="NavIcon CancelIcon"
