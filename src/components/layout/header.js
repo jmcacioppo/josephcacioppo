@@ -24,7 +24,9 @@ const Header = () => {
       if (window.innerWidth <= 550) {
         setIsNavOpen(false);
       }
-      setWidth(window.innerWidth);
+      if (window) {
+        setWidth(window.innerWidth);
+      }
     };
     window.addEventListener("resize", handleResize);
     return () => {
