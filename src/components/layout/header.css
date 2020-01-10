@@ -3,7 +3,7 @@
   margin-top: 10px;
 }
 
-.NavContainer > a {
+.NavContainer > div > a {
   color: #f8f8f8;
   font-size: 30px;
   margin-right: 20px;
@@ -11,6 +11,58 @@
   text-decoration: none;
 }
 
-.NavContainer > a:hover {
+.NavContainer > div > a:hover {
   border-bottom: 3px solid #fa4349;
+}
+
+.NavIcon {
+  color: #f8f8f8;
+  height: 30px;
+  width: 30px;
+}
+
+.NavIcon:hover {
+  cursor: pointer;
+}
+
+.CancelIcon {
+  align-self: flex-start;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.HamburgerMenu {
+  align-self: flex-start;
+  margin-right: 15px;
+}
+
+@media (min-width: 550px) {
+  .HamburgerMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .Header {
+    height: 200px;
+  }
+
+  .HamburgerMenu {
+    display: block;
+  }
+
+  .NavContainer > a {
+    display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .Header {
+    height: 300px;
+  }
+
+  .HamburgerMenu {
+    margin-right: 0;
+    margin-top: 15px;
+  }
 }
