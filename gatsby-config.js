@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Joseph Cacioppo`,
     description: `Personal website for Joseph Cacioppo`,
-    author: `@jmcacioppo`,
+    siteUrl: `https://www.josephcacioppo.com`,
+    author: `Joseph Cacioppo`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,8 +14,9 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,4 +33,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
