@@ -1,21 +1,10 @@
-import { Link, useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React, { useState, useEffect } from "react";
 import { GiCancel, GiHamburgerMenu } from "react-icons/gi";
 import "./header.css";
 
 const Header = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      logo: file(relativePath: { eq: "logo/JC.png" }) {
-        childImageSharp {
-          fixed(width: 105, height: 90) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [width, setWidth] = useState(
     typeof window !== `undefined` && window.innerWidth
@@ -42,7 +31,7 @@ const Header = () => {
         }`}
       >
         <Link to="/">
-          <Img fixed={data.logo.childImageSharp.fixed} />
+          <StaticImage src="../../images/logo/JC.png" alt="JC" />
         </Link>
 
         <div className="NavContainer FlexContainer AlignItemsCenter">
